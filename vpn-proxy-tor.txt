@@ -1,4 +1,4 @@
-# Generated on 13 Mar 2023 at 22:02:11
+# Generated on 13 Mar 2023 at 22:03:04
 /ip firewall address-list
 add list=blacklist address=2.56.16.0/22 comment=VPN
 add list=blacklist address=2.56.148.0/24 comment=VPN
