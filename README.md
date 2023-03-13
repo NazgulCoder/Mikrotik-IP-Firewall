@@ -5,12 +5,12 @@ Mikrotik IP Firewall can be considered a fork of my previous [ipfirewall-updater
 
 Blacklists are updated every hour, I will always try to improve them, optimize and add more sources, do not hesitate to open a pull request.
 
-[vpn-proxy-tor.txt - RAW](https://raw.githubusercontent.com/NazgulCoder/Mikrotik-IP-Firewall/main/vpn-proxy-tor.txt) includes the following blacklists:
+[vpn-proxy-tor.txt](https://raw.githubusercontent.com/NazgulCoder/Mikrotik-IP-Firewall/main/vpn-proxy-tor.txt) includes the following blacklists:
 
 - [X4BNet VPN Blacklist](https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv4.txt)
 - [TOR Blacklist](https://check.torproject.org/torbulkexitlist?ip=1.1.1.1&port=80)
 
-[blacklist.txt - RAW](https://raw.githubusercontent.com/NazgulCoder/Mikrotik-IP-Firewall/main/blacklist.txt) includes all vpn-proxy-tor.txt blacklists plus the following ones:
+[blacklist.txt](https://raw.githubusercontent.com/NazgulCoder/Mikrotik-IP-Firewall/main/blacklist.txt) includes all vpn-proxy-tor.txt blacklists plus the following ones:
 
 - [blocklist.de](https://lists.blocklist.de/lists/all.txt)
 - [dshield Top 1000](https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/dshield_top_1000.ipset)
