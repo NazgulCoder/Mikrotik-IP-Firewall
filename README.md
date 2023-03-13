@@ -3,6 +3,8 @@ Mikrotik IP Firewall can be considered a fork of my previous [ipfirewall-updater
 
 ## BLACKLISTS
 
+Blacklists are updated every hour, I will always try to improve them, optimize and add more sources, do not hesitate to open a pull request.
+
 vpn-proxy-tor.txt includes the following blacklists:
 
 - [X4BNet VPN Blacklist](https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv4.txt)
@@ -38,7 +40,7 @@ You can change the lists as you prefer by adding/removing items from the array
 
 Why I made this?
 
-Personal need
+Personal need since there is no project like this on the internet
 
 
 
