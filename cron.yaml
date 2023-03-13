@@ -1,5 +1,0 @@
-# Run the script every 12 hours
-cron:
-- description: "Run script every 12 hours"
-  url: "https://github.com/NazgulCoder/Mikrotik-IP-Firewall/firewall.php"
-  schedule: "0 */12 * * *"
