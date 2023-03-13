@@ -17,7 +17,7 @@ blacklist.txt includes all vpn-proxy-tor.txt blacklists plus the following ones:
 - [emergingthreats](http://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt)
 
 
-## SELFHOSTED (COMING SOON)
+## SELFHOSTED
 
 To deploy this project you just need Apache or NGINX and PHP (I used 7.4)
 
@@ -31,6 +31,9 @@ Make sure you have cURL enabled
 
 You can change the lists as you prefer by adding/removing items from the array
 
+(optional)
+You can configure the last part of the script to automatically push a Github commit to have your own lists always updated
+
 
 ## FEATURES
 
@@ -40,7 +43,7 @@ You can change the lists as you prefer by adding/removing items from the array
 
 Why I made this?
 
-Personal need since there is no project like this on the internet
+Personal need since there is no project like this on the internet, at least not free
 
 
 
