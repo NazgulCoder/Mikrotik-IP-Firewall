@@ -9,6 +9,12 @@ Blacklists are updated daily, I will always try to improve them, optimize and ad
 
 - [X4BNet VPN Blacklist](https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv4.txt)
 - [TOR Blacklist](https://check.torproject.org/torbulkexitlist?ip=1.1.1.1&port=80)
+- [clarketm ProxyList](https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt)
+- [TheSpeedX ProxyList - HTTP](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt)
+- [TheSpeedX ProxyList - SOCKS4](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt)
+- [TheSpeedX ProxyList - SOCKS5](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt)
+- [hookzof ProxyList](https://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt)
+- [jetkai ProxyList](https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies.txt)
 
 [blacklist.txt](https://raw.githubusercontent.com/NazgulCoder/Mikrotik-IP-Firewall/main/blacklist.txt) includes all vpn-proxy-tor.txt blacklists plus the following ones:
 
@@ -37,8 +43,9 @@ You can configure the last part of the script to automatically push a Github com
 
 ## FEATURES
 
-- Exports more than 20k entries in less than 10 sec (locally hosted with XAMPP/UwAmp)
-- Simple usage, just open the .php page and the txt file will be exported
+- Exports more than 20k entries in less than 5 sec (locally hosted with XAMPP/UwAmp)
+- Simple usage, just open the .php page and the txt file will be exported, and eventually pushed to Github
+- All entries are sanitized for Mikrotik Syntax and duplicates are removed
 - You can automate it easily with cronjob, I use free webhost with [cron-job.org](https://cron-job.org/)
 
 Why I made this?
