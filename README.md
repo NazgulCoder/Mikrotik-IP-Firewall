@@ -94,6 +94,14 @@ Personal need since there is no project like this on the internet, at least not 
 Don't get me wrong, I know there are people who make lists like I'm doing, but they do not release their tools to do so and to automatically commit updates to Github. With my project you can decide which lists add and remove, so you have 100% flexibility for your needs!
 
 
+Why PHP?
+
+- Because you don't need a VPS - Dedicated Server to run it
+- Because a Free Webhost is enough
+- Because PHP is fun, easy and runs everywhere
+- Because PHP rocks
+
+
 
 
 
