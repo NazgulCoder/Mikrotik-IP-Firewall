@@ -22,6 +22,9 @@ If any of the blacklists is not mantained anymore it eventually will be removed.
 - [blocklist.de](https://lists.blocklist.de/lists/all.txt)
 - [dshield Top 1000](https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/dshield_top_1000.ipset)
 - [emergingthreats](http://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt)
+- [Spamhaus-DROP](https://www.spamhaus.org/drop/drop.txt)
+- [Spamhaus-EDROP](https://www.spamhaus.org/drop/edrop.txt)
+
 
 
 ## SELFHOSTED
