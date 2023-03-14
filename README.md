@@ -25,7 +25,7 @@ Blacklists are updated daily, I will always try to improve them, optimize and ad
 
 ## SELFHOSTED
 
-To deploy this project you just need Apache or NGINX and PHP (I used 7.4)
+To deploy this project you just need Apache or NGINX and PHP (I'm using 7.3, however 8.X version should be working as well)
 
 Make sure you change your php.ini like this
 
