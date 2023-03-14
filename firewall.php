@@ -4,15 +4,32 @@ fwrite($myfile, "# Generated on " . date("d M Y") . " at " . date("H:i:s"));
 fwrite($myfile, "\n");
 
 $list = array(
-    "https://BLACKLIST-SITE.com/list.txt",
-    "https://TOR-BLACKLIST.org/nodes.txt",
-// add your blacklist lists
+    "https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv4.txt",
+    "https://check.torproject.org/torbulkexitlist?ip=1.1.1.1&port=80",
+    "https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt",
+    "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt",
+    "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt",
+    "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt",
+    "https://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt",
+    "https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies.txt",
+    "https://lists.blocklist.de/lists/all.txt",
+    "https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/dshield_top_1000.ipset",
+    "http://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt",
 );
 
 $listname = "blacklist";
 $comments = array(
-    "List 1",
-    "List 2",
+    "VPN",
+    "TOR",
+    "Proxy",
+    "Proxy2",
+    "Proxy3",
+    "Proxy4",
+    "Proxy5",
+    "Proxy6",
+    "blocklist.de",
+    "dshield-top-1000",
+    "emergingthreats",
 );
 
 fwrite($myfile, "/ip firewall address-list\n");
@@ -24,23 +41,34 @@ foreach ($list as $key => $value) {
         if (trim($ip) == "" || strpos($ip, "#") !== false) {
             continue;
         }
+        // Split IP address and port number (if present)
+        $ip_parts = explode(':', $ip);
+        $ip_address = $ip_parts[0];
         $comment = $comments[$key];
-        fwrite($myfile, "add list={$listname} address={$ip} comment={$comment}\n");
+        fwrite($myfile, "add list={$listname} address={$ip_address} comment={$comment}\n");
     }
 }
 
 fclose($myfile);
 
 
+// Read contents of file into array
+$lines = file('blacklist.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+
+// Remove duplicates
+$unique_lines = array_unique($lines);
+
+// Write unique lines back to file
+file_put_contents('blacklist.txt', implode("\n", $unique_lines));
 
 
 
 // Github Commit Push
 
 
-$access_token = 'YOUR TOKEN FOR GITHUB AUTO PUSH WITH CRONJOB';
-$repo_owner = 'YOUR USERNAME ON GITHUB';
-$repo_name = 'REPOSITORY NAME';
+$access_token = 'YOUR GITHUB TOKEN';
+$repo_owner = 'YOUR GITHUB NAME';
+$repo_name = 'YOUR REPOSITORY NAME';
 $branch = 'main';
 $file_path = 'blacklist.txt';
 $file_content = file_get_contents($file_path);
