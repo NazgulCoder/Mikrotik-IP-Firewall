@@ -90,7 +90,8 @@ You can configure the last part of the script to automatically push a Github com
 
 Why I made this?
 
-Personal need since there is no project like this on the internet, at least not free
+Personal need since there is no project like this on the internet, at least not free.
+Don't get me wrong, I know there are people who make lists like I'm doing, but they do not release their tools to do so and to automatically commit updates to Github. With my project you can decide which lists add and remove, so you have 100% flexibility for your needs!
 
 
 
