@@ -26,6 +26,42 @@ If any of the blacklists is not mantained anymore it eventually will be removed.
 - [Spamhaus-EDROP](https://www.spamhaus.org/drop/edrop.txt)
 
 
+## HOW TO INSTALL ON MIKROTIK
+
+To use those lists on your Mikrotik device follow these steps:
+1) Open New Terminal and paste this script
+
+```bash
+/ip firewall filter
+add action=drop chain=input comment="Drop new connections from blacklisted IP's to this router" connection-state=new in-interface=ether1 src-address-list=blacklist
+```
+or
+```bash
+/ip firewall filter
+add action=drop chain=forward comment="Drop new connections from blacklisted IP's to this router" dst-address-list=blacklist
+```
+2) Run in terminal the following commands and modify them accordingly with your preferred blacklist
+
+```bash
+# Download Script
+/system script add name="DownloadBlacklist" source={/tool fetch url="https://raw.githubusercontent.com/NazgulCoder/Mikrotik-IP-Firewall/main/blacklist.txt" mode=https;
+:log info "NazgulCoder Blacklist downloaded";
+}
+ 
+# Replace Script
+/system script add name="ReplaceBlacklist" source={/ip firewall address-list remove [find where comment="NazgulCoder"]
+/import file-name=blacklist.txt;
+:log info "Replaced old Blacklist with the new one";
+}
+ 
+# Script Scheduler
+/system scheduler add comment="Download Blacklist" interval=1d \
+name="DownloadBlacklist" on-event=DownloadBlacklist \
+start-date=jan/01/1970 start-time=01:29:26
+/system scheduler add comment="Insert Blacklist" interval=1d \
+name="InstallBlacklist" on-event=ReplaceBlacklist \
+start-date=jan/01/1970 start-time=01:54:26
+```
 
 ## SELFHOSTED
 
