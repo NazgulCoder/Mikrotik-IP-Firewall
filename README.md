@@ -43,7 +43,7 @@ You can configure the last part of the script to automatically push a Github com
 
 ## FEATURES
 
-- Exports more than 20k entries in less than 5 sec (locally hosted with XAMPP/UwAmp)
+- Exports more than 20k entries in less than 5 sec (any free webhost works fine)
 - Simple usage, just open the .php page and the txt file will be exported, and eventually pushed to Github
 - All entries are sanitized for Mikrotik Syntax and duplicates are removed
 - You can automate it easily with cronjob, I use free webhost with [cron-job.org](https://cron-job.org/)
