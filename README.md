@@ -4,6 +4,7 @@ Mikrotik IP Firewall Updater can be considered a fork of my previous [ipfirewall
 ## BLACKLISTS
 
 Blacklists are updated daily, I will always try to improve them, optimize and add more sources, do not hesitate to open a pull request.
+If any of the blacklists is not mantained anymore it eventually will be removed.
 
 [vpn-proxy-tor.txt](https://raw.githubusercontent.com/NazgulCoder/Mikrotik-IP-Firewall/main/vpn-proxy-tor.txt) includes the following blacklists:
 
