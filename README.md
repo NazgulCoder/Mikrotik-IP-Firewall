@@ -6,7 +6,7 @@ Mikrotik IP Firewall Updater can be considered a fork of my previous [ipfirewall
 Blacklists are updated daily, I will always try to improve them, optimize and add more sources, do not hesitate to open a pull request.
 If any of the blacklists is not mantained anymore it eventually will be removed.
 
-[vpn-proxy-tor.txt](https://raw.githubusercontent.com/NazgulCoder/Mikrotik-IP-Firewall/main/vpn-proxy-tor.txt) includes the following blacklists:
+[vpn-proxy-tor.rsc](https://raw.githubusercontent.com/NazgulCoder/Mikrotik-IP-Firewall/main/vpn-proxy-tor.rsc) includes the following blacklists:
 
 - [X4BNet VPN Blacklist](https://raw.githubusercontent.com/X4BNet/lists_vpn/main/output/vpn/ipv4.txt)
 - [TOR Blacklist](https://check.torproject.org/torbulkexitlist?ip=1.1.1.1&port=80)
@@ -17,7 +17,7 @@ If any of the blacklists is not mantained anymore it eventually will be removed.
 - [hookzof ProxyList](https://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt)
 - [jetkai ProxyList](https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies.txt)
 
-[blacklist.txt](https://raw.githubusercontent.com/NazgulCoder/Mikrotik-IP-Firewall/main/blacklist.txt) includes all vpn-proxy-tor.txt blacklists plus the following ones:
+[blacklist.rsc](https://raw.githubusercontent.com/NazgulCoder/Mikrotik-IP-Firewall/main/blacklist.rsc) includes all vpn-proxy-tor.txt blacklists plus the following ones:
 
 - [blocklist.de](https://lists.blocklist.de/lists/all.txt)
 - [dshield Top 1000](https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/dshield_top_1000.ipset)
