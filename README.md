@@ -44,23 +44,15 @@ add action=drop chain=forward comment="Drop new connections from blacklisted IP'
 
 ```bash
 # Download Script
-/system script add name="DownloadBlacklist" source={/tool fetch url="https://raw.githubusercontent.com/NazgulCoder/Mikrotik-IP-Firewall/main/blacklist.txt" mode=https;
-:log info "NazgulCoder Blacklist downloaded";
-}
- 
-# Replace Script
-/system script add name="ReplaceBlacklist" source={/ip firewall address-list remove [find where comment="NazgulCoder"]
+/system script add name="BlacklistUpdater" source={/tool fetch url="https://raw.githubusercontent.com/NazgulCoder/Mikrotik-IP-Firewall/main/blacklist.txt" mode=https;
+:delay 60
 /import file-name=blacklist.txt;
-:log info "Replaced old Blacklist with the new one";
 }
  
 # Script Scheduler
-/system scheduler add comment="Download Blacklist" interval=1d \
-name="DownloadBlacklist" on-event=DownloadBlacklist \
-start-date=jan/01/1970 start-time=01:29:26
-/system scheduler add comment="Insert Blacklist" interval=1d \
-name="InstallBlacklist" on-event=ReplaceBlacklist \
-start-date=jan/01/1970 start-time=01:54:26
+/system scheduler add comment="BlacklistUpdater" interval=1d \
+name="BlacklistUpdater" on-event=DownloadBlacklist \
+start-date=jan/01/1970 start-time=01:00:00
 ```
 
 ## SELFHOSTED
