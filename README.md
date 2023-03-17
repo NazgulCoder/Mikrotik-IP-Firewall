@@ -17,7 +17,7 @@ If any of the blacklists is not mantained anymore it eventually will be removed.
 - [hookzof ProxyList](https://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt)
 - [jetkai ProxyList](https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies.txt)
 
-[blacklist.rsc](https://raw.githubusercontent.com/NazgulCoder/Mikrotik-IP-Firewall/main/blacklist.rsc) includes all vpn-proxy-tor.txt blacklists plus the following ones:
+[blacklist.rsc](https://raw.githubusercontent.com/NazgulCoder/Mikrotik-IP-Firewall/main/blacklist.rsc) includes the following ones:
 
 - [blocklist.de](https://lists.blocklist.de/lists/all.txt)
 - [emergingthreats](http://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt)
