@@ -20,10 +20,8 @@ If any of the blacklists is not mantained anymore it eventually will be removed.
 [blacklist.rsc](https://raw.githubusercontent.com/NazgulCoder/Mikrotik-IP-Firewall/main/blacklist.rsc) includes all vpn-proxy-tor.txt blacklists plus the following ones:
 
 - [blocklist.de](https://lists.blocklist.de/lists/all.txt)
-- [dshield Top 1000](https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/dshield_top_1000.ipset)
 - [emergingthreats](http://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt)
-- [Spamhaus-DROP](https://www.spamhaus.org/drop/drop.txt)
-- [Spamhaus-EDROP](https://www.spamhaus.org/drop/edrop.txt)
+- [Firehol Level1](https://raw.githubusercontent.com/ktsaou/blocklist-ipsets/master/firehol_level1.netset)
 
 
 ## HOW TO INSTALL ON MIKROTIK
