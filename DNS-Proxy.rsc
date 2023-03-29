@@ -1,4 +1,4 @@
-# Generated on 29 Mar 2023 at 20:10:58
+# Generated on 29 Mar 2023 at 20:21:39
 /ip firewall address-list
 add list=DNS-Proxy address=1.0.0.1 comment=DNS-Proxy1 timeout=1d
 add list=DNS-Proxy address=100.108.225.173 comment=DNS-Proxy1 timeout=1d
