@@ -1,5 +1,5 @@
-# Generated on 31 Mar 2023 at 09:10:42
-/ip firewall address-list
+# Generated on 31 Mar 2023 at 09:11:19
+:do {/ip firewall address-list
 :do {add address=1.0.0.1 list=DNS-Proxy comment=DNS-Proxy1 timeout=23h} on-error={}
 :do {add address=100.108.225.173 list=DNS-Proxy comment=DNS-Proxy1 timeout=23h} on-error={}
 :do {add address=1.0.0.2 list=DNS-Proxy comment=DNS-Proxy1 timeout=23h} on-error={}
