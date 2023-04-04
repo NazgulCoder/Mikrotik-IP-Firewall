@@ -1,4 +1,4 @@
-# Generated on 04 Apr 2023 at 00:02:07
+# Generated on 05 Apr 2023 at 00:02:06
 :do {/ip firewall address-list
 :do {add address=100.10.72.114 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=100.6.3.139 list=Firewall comment=emergingthreats timeout=23h} on-error={}
@@ -17,6 +17,7 @@
 :do {add address=103.140.174.19 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=103.140.174.20 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=103.141.50.102 list=Firewall comment=emergingthreats timeout=23h} on-error={}
+:do {add address=103.144.139.164 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=103.144.201.53 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=103.159.224.46 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=103.169.83.89 list=Firewall comment=emergingthreats timeout=23h} on-error={}
@@ -57,7 +58,6 @@
 :do {add address=108.62.118.59 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=109.11.175.42 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=109.146.46.4 list=Firewall comment=emergingthreats timeout=23h} on-error={}
-:do {add address=109.149.147.104 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=109.149.148.242 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=109.153.195.56 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=109.154.254.126 list=Firewall comment=emergingthreats timeout=23h} on-error={}
@@ -114,7 +114,6 @@
 :do {add address=142.122.61.8 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=142.126.173.85 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=142.161.27.232 list=Firewall comment=emergingthreats timeout=23h} on-error={}
-:do {add address=142.93.76.76 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=144.202.15.58 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=144.64.226.144 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=144.91.122.94 list=Firewall comment=emergingthreats timeout=23h} on-error={}
@@ -138,14 +137,12 @@
 :do {add address=151.65.57.194 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=151.65.74.186 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=157.119.85.203 list=Firewall comment=emergingthreats timeout=23h} on-error={}
-:do {add address=157.254.194.119 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=159.65.3.147 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=159.65.88.10 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=159.89.202.34 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=161.142.103.5 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=162.243.103.246 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=162.248.14.107 list=Firewall comment=emergingthreats timeout=23h} on-error={}
-:do {add address=163.182.177.80 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=163.44.196.120 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=164.90.222.65 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=165.22.211.113 list=Firewall comment=emergingthreats timeout=23h} on-error={}
@@ -307,6 +304,7 @@
 :do {add address=209.141.40.19 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=209.141.41.251 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=209.141.48.117 list=Firewall comment=emergingthreats timeout=23h} on-error={}
+:do {add address=209.141.48.221 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=209.141.51.65 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=209.141.53.174 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=209.142.97.83 list=Firewall comment=emergingthreats timeout=23h} on-error={}
@@ -315,7 +313,6 @@
 :do {add address=209.93.207.224 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=212.112.86.37 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=212.46.38.231 list=Firewall comment=emergingthreats timeout=23h} on-error={}
-:do {add address=212.69.141.168 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=212.70.107.156 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=212.70.98.141 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=212.70.98.161 list=Firewall comment=emergingthreats timeout=23h} on-error={}
@@ -386,7 +383,6 @@
 :do {add address=37.14.229.220 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=37.186.55.238 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=37.186.55.60 list=Firewall comment=emergingthreats timeout=23h} on-error={}
-:do {add address=37.28.155.36 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=39.55.251.26 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=41.227.92.194 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=41.228.22.180 list=Firewall comment=emergingthreats timeout=23h} on-error={}
@@ -450,7 +446,6 @@
 :do {add address=64.123.103.123 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=64.127.146.153 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=64.229.202.224 list=Firewall comment=emergingthreats timeout=23h} on-error={}
-:do {add address=64.237.212.162 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=64.237.221.254 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=64.237.245.195 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=64.44.101.102 list=Firewall comment=emergingthreats timeout=23h} on-error={}
@@ -468,7 +463,6 @@
 :do {add address=66.228.32.31 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=66.230.104.103 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=66.35.125.114 list=Firewall comment=emergingthreats timeout=23h} on-error={}
-:do {add address=66.35.125.42 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=66.35.127.94 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=67.10.175.47 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=67.10.2.240 list=Firewall comment=emergingthreats timeout=23h} on-error={}
@@ -507,7 +501,6 @@
 :do {add address=71.171.83.69 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=71.231.150.81 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=71.31.100.192 list=Firewall comment=emergingthreats timeout=23h} on-error={}
-:do {add address=71.31.101.183 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=71.38.155.217 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=71.46.234.171 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=71.65.145.108 list=Firewall comment=emergingthreats timeout=23h} on-error={}
@@ -546,11 +539,11 @@
 :do {add address=75.158.15.211 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=75.163.169.141 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=75.71.96.226 list=Firewall comment=emergingthreats timeout=23h} on-error={}
+:do {add address=75.98.154.19 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=76.170.252.153 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=76.185.166.168 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=76.20.42.45 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=76.27.40.189 list=Firewall comment=emergingthreats timeout=23h} on-error={}
-:do {add address=76.64.202.44 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=76.71.137.91 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=76.80.180.154 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=77.124.9.203 list=Firewall comment=emergingthreats timeout=23h} on-error={}
@@ -570,7 +563,6 @@
 :do {add address=79.137.13.24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=79.67.165.149 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=79.92.15.6 list=Firewall comment=emergingthreats timeout=23h} on-error={}
-:do {add address=80.0.74.165 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=80.107.149.84 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=80.1.152.201 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=80.12.88.148 list=Firewall comment=emergingthreats timeout=23h} on-error={}
@@ -581,7 +573,6 @@
 :do {add address=80.76.163.207 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=81.111.108.123 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=81.150.42.123 list=Firewall comment=emergingthreats timeout=23h} on-error={}
-:do {add address=81.157.206.138 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=81.158.112.20 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=81.193.30.90 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=81.229.117.95 list=Firewall comment=emergingthreats timeout=23h} on-error={}
@@ -590,7 +581,6 @@
 :do {add address=82.127.204.82 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=82.155.108.153 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=82.212.112.246 list=Firewall comment=emergingthreats timeout=23h} on-error={}
-:do {add address=82.212.115.116 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=82.36.36.76 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=83.114.60.6 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=83.213.192.136 list=Firewall comment=emergingthreats timeout=23h} on-error={}
@@ -637,7 +627,6 @@
 :do {add address=86.236.114.212 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=86.250.10.160 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=86.45.66.141 list=Firewall comment=emergingthreats timeout=23h} on-error={}
-:do {add address=86.97.52.177 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=86.97.67.62 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=86.97.68.68 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=86.98.17.65 list=Firewall comment=emergingthreats timeout=23h} on-error={}
@@ -645,10 +634,8 @@
 :do {add address=86.99.51.33 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=87.202.101.164 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=87.220.204.179 list=Firewall comment=emergingthreats timeout=23h} on-error={}
-:do {add address=87.221.197.34 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=87.221.215.41 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=87.223.81.32 list=Firewall comment=emergingthreats timeout=23h} on-error={}
-:do {add address=87.223.83.119 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=87.223.92.143 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=87.243.146.59 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=87.57.13.215 list=Firewall comment=emergingthreats timeout=23h} on-error={}
@@ -683,7 +670,6 @@
 :do {add address=91.2.135.211 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=91.235.234.107 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=91.245.254.96 list=Firewall comment=emergingthreats timeout=23h} on-error={}
-:do {add address=91.254.132.23 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=91.254.229.61 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=91.68.227.219 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=92.1.170.110 list=Firewall comment=emergingthreats timeout=23h} on-error={}
@@ -697,7 +683,6 @@
 :do {add address=92.239.81.124 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=92.27.86.48 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=92.90.101.167 list=Firewall comment=emergingthreats timeout=23h} on-error={}
-:do {add address=92.97.203.51 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=92.98.139.2 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=93.147.134.85 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=93.147.235.8 list=Firewall comment=emergingthreats timeout=23h} on-error={}
@@ -1356,7 +1341,6 @@
 :do {add address=198.181.96.0/20 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=198.183.32.0/19 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=198.184.193.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
-:do {add address=198.184.208.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=198.186.25.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=198.187.64.0/18 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=198.187.192.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
@@ -1472,7 +1456,6 @@
 :do {add address=202.189.80.0/20 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=203.9.0.0/19 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=203.31.88.0/23 list=Firewall comment=emergingthreats timeout=23h} on-error={}
-:do {add address=203.32.25.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=203.86.252.0/22 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=203.169.0.0/22 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=203.191.64.0/18 list=Firewall comment=emergingthreats timeout=23h} on-error={}
@@ -1664,25 +1647,25 @@
 :do {add address=223.173.0.0/16 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=223.254.0.0/16 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=89.248.165.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
-:do {add address=89.248.163.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
-:do {add address=94.102.61.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=176.111.174.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
+:do {add address=94.102.61.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
+:do {add address=89.248.163.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=185.234.216.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=167.248.133.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=167.94.138.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
-:do {add address=78.128.113.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
-:do {add address=183.136.225.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=92.63.197.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
+:do {add address=185.156.73.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=212.70.149.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
+:do {add address=183.136.225.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=193.163.125.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=64.62.197.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
-:do {add address=185.156.73.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
+:do {add address=78.128.113.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=167.94.146.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=167.94.145.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
-:do {add address=185.224.128.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=80.66.77.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
-:do {add address=193.142.146.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=5.8.18.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
+:do {add address=185.224.128.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
+:do {add address=80.66.83.0/24 list=Firewall comment=emergingthreats timeout=23h} on-error={}
 :do {add address=0.0.0.0/8 list=Firewall comment=Firehol-Level1 timeout=23h} on-error={}
 :do {add address=2.57.232.0/22 list=Firewall comment=Firehol-Level1 timeout=23h} on-error={}
 :do {add address=5.105.62.0/24 list=Firewall comment=Firehol-Level1 timeout=23h} on-error={}
@@ -2674,6 +2657,7 @@
 :do {add address=198.56.24.0/23 list=Firewall comment=Firehol-Level1 timeout=23h} on-error={}
 :do {add address=198.61.8.0/21 list=Firewall comment=Firehol-Level1 timeout=23h} on-error={}
 :do {add address=198.178.64.0/19 list=Firewall comment=Firehol-Level1 timeout=23h} on-error={}
+:do {add address=198.184.208.0/24 list=Firewall comment=Firehol-Level1 timeout=23h} on-error={}
 :do {add address=199.7.40.0/22 list=Firewall comment=Firehol-Level1 timeout=23h} on-error={}
 :do {add address=200.226.128.0/17 list=Firewall comment=Firehol-Level1 timeout=23h} on-error={}
 :do {add address=202.0.81.0/24 list=Firewall comment=Firehol-Level1 timeout=23h} on-error={}
@@ -2862,6 +2846,7 @@
 :do {add address=203.31.169.0/24 list=Firewall comment=Firehol-Level1 timeout=23h} on-error={}
 :do {add address=203.31.210.0/24 list=Firewall comment=Firehol-Level1 timeout=23h} on-error={}
 :do {add address=203.32.22.0/23 list=Firewall comment=Firehol-Level1 timeout=23h} on-error={}
+:do {add address=203.32.25.0/24 list=Firewall comment=Firehol-Level1 timeout=23h} on-error={}
 :do {add address=203.32.86.0/23 list=Firewall comment=Firehol-Level1 timeout=23h} on-error={}
 :do {add address=203.32.188.0/24 list=Firewall comment=Firehol-Level1 timeout=23h} on-error={}
 :do {add address=203.33.96.0/22 list=Firewall comment=Firehol-Level1 timeout=23h} on-error={}
