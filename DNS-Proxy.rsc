@@ -1,4 +1,4 @@
-# Generated on 21 Feb 2024 at 17:42:00
+# Generated on 22 Feb 2024 at 00:04:05
 :do {/ip firewall address-list
 :do {add address=1.0.0.1 list=DNS-Proxy comment=DNS-Proxy1 timeout=23h} on-error={}
 :do {add address=10.0.10.246 list=DNS-Proxy comment=DNS-Proxy1 timeout=23h} on-error={}
