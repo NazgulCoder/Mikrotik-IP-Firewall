@@ -1,4 +1,4 @@
-# Mikrotik IP Firewall Updater
+# Mikrotik IP Firewall Updater - Block VPN, Proxies, TOR and DNS over HTTPS/TLS
 Mikrotik IP Firewall Updater can be considered a fork of my previous [ipfirewall-updater](https://github.com/NazgulCoder/ipfirewall-updater)
 
 ## BLACKLISTS
