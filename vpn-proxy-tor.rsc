@@ -1,4 +1,4 @@
-# Generated on 10 Feb 2025 at 11:10:54
+# Generated on 10 Feb 2025 at 11:14:22
 :do {/ip firewall address-list
 :do {add address=2.56.16.0/22 list=blacklist comment=VPN timeout=23h} on-error={}
 :do {add address=2.56.148.0/23 list=blacklist comment=VPN timeout=23h} on-error={}
