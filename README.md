@@ -47,9 +47,9 @@ add action=drop chain=forward comment="Drop new connections from blacklisted IP'
 
 ```bash
 # Download Script
-/system script add name="BlacklistUpdater" source={/tool fetch url="https://raw.githubusercontent.com/NazgulCoder/Mikrotik-IP-Firewall/main/blacklist.txt" mode=https;
+/system script add name="BlacklistUpdater" source={/tool fetch url="https://raw.githubusercontent.com/NazgulCoder/Mikrotik-IP-Firewall/main/blacklist.rsc" mode=https;
 :delay 60
-/import file-name=blacklist.txt;
+/import file-name=blacklist.rsc;
 }
  
 # Script Scheduler
