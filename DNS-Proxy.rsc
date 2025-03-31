@@ -1,4 +1,4 @@
-# Generated on 31 Mar 2025 at 19:12:36
+# Generated on 31 Mar 2025 at 17:22:34
 :do {/ip firewall address-list
 :do {add address=1.0.0.1 list=blacklist comment=DNS-Proxy1 timeout=23h} on-error={}
 :do {add address=1.0.0.2 list=blacklist comment=DNS-Proxy1 timeout=23h} on-error={}
