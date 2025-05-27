@@ -16,6 +16,7 @@ If any of the blacklists is not mantained anymore it eventually will be removed.
 - [TheSpeedX ProxyList - SOCKS5](https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks5.txt)
 - [hookzof ProxyList](https://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt)
 - [jetkai ProxyList](https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies.txt)
+- [alireza-rezaee TOR List](https://raw.githubusercontent.com/alireza-rezaee/tor-nodes/refs/heads/main/latest.all.csv)
 
 [blacklist.rsc](https://raw.githubusercontent.com/NazgulCoder/Mikrotik-IP-Firewall/main/blacklist.rsc) includes the following ones for an optimal Firewall security:
 
