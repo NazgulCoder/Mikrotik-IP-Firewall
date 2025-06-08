@@ -1,4 +1,4 @@
-# Generated on 08 Jun 2025 at 00:00:36
+# Generated on 09 Jun 2025 at 00:00:36
 :do {/ip firewall address-list
 :do {add address=2.56.16.0/22 list=VPN comment=VPN timeout=23h} on-error={}
 :do {add address=2.56.148.0/23 list=VPN comment=VPN timeout=23h} on-error={}
@@ -5827,7 +5827,6 @@
 :do {add address=193.189.100.203 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=107.189.1.111 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=209.141.45.81 list=VPN comment=TOR timeout=23h} on-error={}
-:do {add address=23.137.253.109 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=94.16.115.121 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=185.120.16.171 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=185.220.100.244 list=VPN comment=TOR timeout=23h} on-error={}
@@ -6034,7 +6033,6 @@
 :do {add address=31.184.236.104 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=205.185.127.231 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=107.189.5.249 list=VPN comment=TOR timeout=23h} on-error={}
-:do {add address=45.95.169.230 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=84.211.226.13 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=172.232.209.254 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=102.211.56.12 list=VPN comment=TOR timeout=23h} on-error={}
@@ -6050,7 +6048,6 @@
 :do {add address=45.141.215.90 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=45.141.215.111 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=93.123.109.116 list=VPN comment=TOR timeout=23h} on-error={}
-:do {add address=194.87.87.118 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=193.218.118.160 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=152.32.206.127 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=84.19.182.20 list=VPN comment=TOR timeout=23h} on-error={}
@@ -6185,7 +6182,6 @@
 :do {add address=89.37.95.34 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=5.2.79.190 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=45.90.185.67 list=VPN comment=TOR timeout=23h} on-error={}
-:do {add address=206.71.158.65 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=45.90.185.68 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=45.9.168.18 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=194.15.36.117 list=VPN comment=TOR timeout=23h} on-error={}
@@ -6208,7 +6204,6 @@
 :do {add address=188.214.104.21 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=171.25.193.131 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=45.91.250.107 list=VPN comment=TOR timeout=23h} on-error={}
-:do {add address=80.85.246.128 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=139.162.90.140 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=62.171.137.169 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=45.61.188.15 list=VPN comment=TOR timeout=23h} on-error={}
@@ -6269,20 +6264,16 @@
 :do {add address=74.82.47.194 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=66.94.111.228 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=89.110.95.200 list=VPN comment=TOR timeout=23h} on-error={}
-:do {add address=194.5.98.19 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=5.255.120.205 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=5.255.100.219 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=179.43.128.16 list=VPN comment=TOR timeout=23h} on-error={}
-:do {add address=5.255.100.224 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=5.255.99.147 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=5.255.114.171 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=5.255.99.124 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=5.255.101.131 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=94.72.104.135 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=45.79.144.222 list=VPN comment=TOR timeout=23h} on-error={}
-:do {add address=93.185.158.156 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=212.95.50.77 list=VPN comment=TOR timeout=23h} on-error={}
-:do {add address=81.168.83.98 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=176.121.81.51 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=77.48.28.204 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=77.48.28.237 list=VPN comment=TOR timeout=23h} on-error={}
@@ -6304,8 +6295,9 @@
 :do {add address=124.198.132.237 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=185.132.53.213 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=172.81.134.228 list=VPN comment=TOR timeout=23h} on-error={}
-:do {add address=157.66.25.92 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=97.74.89.52 list=VPN comment=TOR timeout=23h} on-error={}
+:do {add address=157.66.25.92 list=VPN comment=TOR timeout=23h} on-error={}
+:do {add address=45.67.34.152 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=85.90.196.47 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=108.181.69.243 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=193.26.115.140 list=VPN comment=TOR timeout=23h} on-error={}
@@ -6372,6 +6364,10 @@
 :do {add address=5.101.84.151 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=85.239.55.250 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=45.67.34.172 list=VPN comment=TOR timeout=23h} on-error={}
+:do {add address=94.75.225.81 list=VPN comment=TOR timeout=23h} on-error={}
+:do {add address=103.150.93.178 list=VPN comment=TOR timeout=23h} on-error={}
+:do {add address=3.78.51.90 list=VPN comment=TOR timeout=23h} on-error={}
+:do {add address=23.184.48.13 list=VPN comment=TOR timeout=23h} on-error={}
 :do {add address=203.243.63.16 list=VPN comment=Proxy timeout=23h} on-error={}
 :do {add address=3.24.58.156 list=VPN comment=Proxy timeout=23h} on-error={}
 :do {add address=95.217.104.21 list=VPN comment=Proxy timeout=23h} on-error={}
@@ -8721,7 +8717,119 @@
 :do {add address=132.148.166.93 list=VPN comment=Proxy3 timeout=23h} on-error={}
 :do {add address=72.195.114.184 list=VPN comment=Proxy3 timeout=23h} on-error={}
 :do {add address=36.64.62.111 list=VPN comment=Proxy3 timeout=23h} on-error={}
-:do {add address=185.93.89.165 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=51.75.126.150 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=185.93.89.190 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=72.195.101.99 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=147.45.178.211 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=72.195.34.59 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=176.9.238.155 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=46.105.105.223 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=192.95.33.162 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=72.214.108.67 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=51.210.111.216 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=47.76.203.173 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=66.42.224.229 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=64.226.85.75 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=98.152.200.61 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=64.227.131.240 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=94.136.190.22 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=8.210.77.44 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=134.199.159.23 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=57.129.81.201 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=208.102.51.6 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=138.68.60.8 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=31.42.185.134 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=222.59.173.105 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=23.249.27.167 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=121.169.46.116 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=113.62.171.32 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=208.65.90.21 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=159.65.128.194 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=120.204.84.132 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=183.6.67.93 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=219.154.210.157 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=161.35.70.249 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=172.234.67.180 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=142.93.251.218 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=192.129.175.157 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=206.189.57.182 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=37.18.73.60 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=161.35.31.237 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=45.12.150.82 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=176.108.253.15 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=70.166.167.38 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=98.170.57.249 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=192.111.134.10 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=192.111.137.35 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=199.102.107.145 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=103.245.205.33 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=70.166.167.55 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=45.115.113.126 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=68.71.247.130 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=98.178.72.21 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=192.111.137.37 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=192.111.130.5 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=199.116.114.11 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=212.47.232.249 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=91.214.62.121 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=103.189.218.85 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=72.211.46.99 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=69.202.164.128 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=34.166.117.165 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=104.244.74.206 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=68.1.210.189 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=94.254.244.251 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=98.188.47.150 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=98.170.57.241 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=199.229.254.129 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=194.195.122.51 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=178.32.202.54 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=212.47.232.161 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=45.79.203.254 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=98.175.31.222 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=198.177.254.157 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=8.217.25.68 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=212.233.93.84 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=67.210.146.50 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=45.114.68.87 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=103.174.236.57 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=103.160.12.147 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=47.237.100.95 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=43.134.23.90 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=49.156.44.130 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=106.75.71.155 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=24.249.199.4 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=67.201.35.145 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=68.71.240.210 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=68.71.249.158 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=67.201.58.190 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=72.205.0.67 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=72.207.109.5 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=198.177.252.24 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=192.252.220.89 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=98.191.0.37 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=67.201.39.14 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=216.68.128.121 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=184.181.178.33 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=198.177.254.131 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=98.170.57.231 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=98.181.137.83 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=192.252.211.193 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=208.65.90.3 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=192.252.210.233 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=72.205.0.93 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=98.190.239.3 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=184.170.251.30 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=192.252.214.17 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=198.177.253.13 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=192.241.156.17 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=185.59.100.55 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=47.236.224.32 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=67.201.33.10 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=88.198.212.91 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=195.158.8.123 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=89.43.31.134 list=VPN comment=Proxy5 timeout=23h} on-error={}
+:do {add address=34.102.48.89 list=VPN comment=Proxy5 timeout=23h} on-error={}
 :do {add address=1.0.136.16 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=1.0.136.99 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=1.0.171.213 list=VPN comment=Proxy6 timeout=23h} on-error={}
@@ -8886,7 +8994,6 @@
 :do {add address=24.152.49.229 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=24.192.227.234 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=24.234.142.123 list=VPN comment=Proxy6 timeout=23h} on-error={}
-:do {add address=24.249.199.4 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=27.50.18.113 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=27.54.71.231 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=27.54.71.234 list=VPN comment=Proxy6 timeout=23h} on-error={}
@@ -9390,7 +9497,6 @@
 :do {add address=46.101.13.77 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=46.101.218.52 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=46.105.87.167 list=VPN comment=Proxy6 timeout=23h} on-error={}
-:do {add address=46.105.105.223 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=46.149.34.206 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=46.160.90.81 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=46.161.195.101 list=VPN comment=Proxy6 timeout=23h} on-error={}
@@ -9580,7 +9686,6 @@
 :do {add address=65.108.59.44 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=65.108.223.145 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=65.109.140.254 list=VPN comment=Proxy6 timeout=23h} on-error={}
-:do {add address=66.42.224.229 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=66.70.178.214 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=66.70.197.194 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=66.70.197.196 list=VPN comment=Proxy6 timeout=23h} on-error={}
@@ -9593,9 +9698,6 @@
 :do {add address=67.22.223.9 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=67.63.96.6 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=67.73.245.220 list=VPN comment=Proxy6 timeout=23h} on-error={}
-:do {add address=67.201.33.10 list=VPN comment=Proxy6 timeout=23h} on-error={}
-:do {add address=67.210.146.50 list=VPN comment=Proxy6 timeout=23h} on-error={}
-:do {add address=68.71.247.130 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=68.71.249.153 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=68.71.254.6 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=68.180.62.9 list=VPN comment=Proxy6 timeout=23h} on-error={}
@@ -9607,13 +9709,11 @@
 :do {add address=70.80.75.236 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=70.90.67.137 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=70.90.67.140 list=VPN comment=Proxy6 timeout=23h} on-error={}
-:do {add address=70.166.167.55 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=72.37.216.68 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=72.50.33.170 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=72.195.34.35 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=72.195.34.41 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=72.195.34.42 list=VPN comment=Proxy6 timeout=23h} on-error={}
-:do {add address=72.195.34.59 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=72.195.114.169 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=72.206.181.97 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=72.206.181.103 list=VPN comment=Proxy6 timeout=23h} on-error={}
@@ -9906,12 +10006,7 @@
 :do {add address=98.162.96.41 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=98.162.96.52 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=98.162.96.53 list=VPN comment=Proxy6 timeout=23h} on-error={}
-:do {add address=98.170.57.231 list=VPN comment=Proxy6 timeout=23h} on-error={}
-:do {add address=98.170.57.249 list=VPN comment=Proxy6 timeout=23h} on-error={}
-:do {add address=98.178.72.21 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=98.181.137.80 list=VPN comment=Proxy6 timeout=23h} on-error={}
-:do {add address=98.181.137.83 list=VPN comment=Proxy6 timeout=23h} on-error={}
-:do {add address=98.188.47.150 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=99.45.137.21 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=99.56.147.242 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=101.43.120.143 list=VPN comment=Proxy6 timeout=23h} on-error={}
@@ -12259,12 +12354,8 @@
 :do {add address=192.109.244.221 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=192.111.129.145 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=192.111.130.2 list=VPN comment=Proxy6 timeout=23h} on-error={}
-:do {add address=192.111.130.5 list=VPN comment=Proxy6 timeout=23h} on-error={}
-:do {add address=192.111.134.10 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=192.111.135.17 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=192.111.135.18 list=VPN comment=Proxy6 timeout=23h} on-error={}
-:do {add address=192.111.137.35 list=VPN comment=Proxy6 timeout=23h} on-error={}
-:do {add address=192.111.137.37 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=192.111.138.29 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=192.111.139.162 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=192.111.139.163 list=VPN comment=Proxy6 timeout=23h} on-error={}
@@ -12278,7 +12369,6 @@
 :do {add address=192.252.209.155 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=192.252.211.197 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=192.252.216.81 list=VPN comment=Proxy6 timeout=23h} on-error={}
-:do {add address=192.252.220.89 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=193.3.52.1 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=193.59.26.208 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=193.93.217.89 list=VPN comment=Proxy6 timeout=23h} on-error={}
@@ -12376,9 +12466,7 @@
 :do {add address=198.211.115.186 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=198.229.231.13 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=199.58.184.97 list=VPN comment=Proxy6 timeout=23h} on-error={}
-:do {add address=199.116.114.11 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=199.195.249.103 list=VPN comment=Proxy6 timeout=23h} on-error={}
-:do {add address=199.229.254.129 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=200.0.247.82 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=200.0.247.84 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=200.0.247.86 list=VPN comment=Proxy6 timeout=23h} on-error={}
@@ -12656,7 +12744,6 @@
 :do {add address=206.220.175.2 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=207.246.112.27 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=208.79.250.97 list=VPN comment=Proxy6 timeout=23h} on-error={}
-:do {add address=208.102.51.6 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=209.13.96.165 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=209.13.96.171 list=VPN comment=Proxy6 timeout=23h} on-error={}
 :do {add address=209.97.169.181 list=VPN comment=Proxy6 timeout=23h} on-error={}
@@ -12836,6 +12923,7 @@
 :do {add address=212.227.74.176 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=37.114.33.33 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=87.150.102.188 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=31.192.107.132 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=109.204.188.148 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=45.129.182.225 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=81.25.155.107 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -12886,7 +12974,6 @@
 :do {add address=89.58.60.208 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=45.92.33.62 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=212.51.151.254 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=45.94.31.22 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=163.220.236.40 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=45.141.215.36 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=23.188.56.141 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -12895,6 +12982,8 @@
 :do {add address=64.65.62.202 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=66.78.40.183 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=107.189.13.112 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=149.210.164.228 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=93.113.25.241 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=209.58.180.236 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=45.140.164.67 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=91.205.230.113 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -12916,12 +13005,12 @@
 :do {add address=217.155.40.118 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=5.196.71.24 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.148.3.69 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=217.156.67.146 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=146.19.168.223 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=216.181.20.5 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=188.26.38.55 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=129.153.53.94 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=207.244.78.230 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=69.48.205.198 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=77.109.152.87 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=75.223.16.193 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=95.216.22.87 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -12952,7 +13041,7 @@
 :do {add address=178.254.44.163 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=84.119.210.212 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.206.146.238 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=45.153.34.246 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=82.153.138.47 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=150.230.20.28 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=5.181.80.63 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=109.236.83.11 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -13014,12 +13103,10 @@
 :do {add address=88.159.171.233 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=88.99.104.83 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=37.221.212.150 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=45.153.34.221 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=216.181.20.134 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=94.16.114.231 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=64.74.160.232 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=77.68.20.86 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=62.102.148.185 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=192.42.116.189 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=136.243.147.89 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=78.138.98.42 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -13041,7 +13128,7 @@
 :do {add address=2.56.98.134 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=193.142.147.204 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=89.58.5.0 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=84.191.163.86 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=84.191.162.96 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=23.188.56.154 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=31.20.241.98 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=37.46.211.102 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -13066,6 +13153,7 @@
 :do {add address=98.115.87.163 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=51.89.106.29 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=45.141.215.10 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=24.151.1.53 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=83.0.60.229 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=63.227.116.162 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=5.34.176.184 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -13098,6 +13186,7 @@
 :do {add address=14.32.49.155 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=107.189.10.229 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=14.9.101.224 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=148.251.198.86 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=134.195.88.66 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=138.59.18.106 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=77.73.68.73 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -13130,7 +13219,7 @@
 :do {add address=202.55.71.41 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=37.120.165.175 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=213.163.70.234 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=217.150.235.254 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=217.150.238.191 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.241.208.164 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=204.10.18.131 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.225.17.105 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -13149,6 +13238,7 @@
 :do {add address=185.163.46.83 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=209.59.168.216 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=140.78.100.28 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=73.185.76.49 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=89.58.61.40 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=96.9.98.75 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=141.255.161.167 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -13203,6 +13293,8 @@
 :do {add address=212.227.228.245 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=82.149.227.123 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=65.108.77.19 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=81.56.71.129 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=93.113.25.211 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=193.122.142.28 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=45.14.233.204 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=216.181.20.167 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -13240,6 +13332,7 @@
 :do {add address=130.180.63.150 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=5.181.80.101 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=82.118.21.80 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=178.236.254.48 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.103.110.21 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=23.95.122.119 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=172.234.20.10 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -13406,7 +13499,6 @@
 :do {add address=102.208.216.153 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=45.137.100.160 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=75.75.102.102 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=171.101.216.119 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=84.227.41.157 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=37.187.103.54 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=164.68.113.149 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -13449,21 +13541,19 @@
 :do {add address=62.210.125.130 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=85.195.230.248 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=109.104.152.73 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=65.21.226.21 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=23.94.239.87 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=144.217.87.28 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=37.114.53.74 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=2.56.172.108 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=66.165.241.228 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=87.229.115.23 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=93.221.53.192 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=93.221.54.115 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=152.53.18.94 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=144.24.187.244 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=149.202.69.174 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=146.59.12.188 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=176.65.149.65 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=159.69.138.31 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=78.153.149.48 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=194.180.191.50 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=213.255.218.86 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=131.255.4.48 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -13472,8 +13562,9 @@
 :do {add address=178.254.35.2 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=162.250.191.15 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=45.124.53.132 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=188.26.80.153 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=188.26.80.13 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=91.65.109.32 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=185.221.152.42 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=47.32.66.234 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=194.26.192.186 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=84.238.87.214 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -13512,13 +13603,13 @@
 :do {add address=185.107.83.1 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=51.79.221.8 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=157.180.85.126 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=79.119.5.198 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=79.119.0.184 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=91.143.87.51 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=45.14.233.251 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=176.199.87.176 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=107.173.89.174 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=81.236.27.127 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=84.137.12.169 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=91.35.161.95 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=172.234.37.233 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=94.16.106.22 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=146.70.80.19 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -13534,9 +13625,9 @@
 :do {add address=45.76.86.86 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=82.144.36.201 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=148.251.125.117 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=87.114.6.116 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=159.223.170.101 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.32.222.237 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=178.200.143.177 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=102.130.115.59 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=192.121.108.130 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=157.245.84.78 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -13553,7 +13644,6 @@
 :do {add address=87.106.216.245 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=159.196.130.39 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=107.189.13.151 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=45.92.238.246 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=212.47.229.2 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=148.113.183.0 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=209.250.2.254 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -13618,7 +13708,6 @@
 :do {add address=192.42.115.103 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=50.98.242.231 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=82.65.165.202 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=82.64.44.137 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=45.153.34.222 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=194.87.30.63 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=198.71.53.137 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -13671,7 +13760,6 @@
 :do {add address=190.22.45.81 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=202.169.99.195 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=128.199.146.186 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=47.188.6.203 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=85.215.53.227 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=99.33.43.139 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=162.251.119.2 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -13745,7 +13833,7 @@
 :do {add address=45.82.64.163 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.220.101.201 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=149.56.22.133 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=195.52.165.37 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=195.52.51.39 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=107.172.157.34 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=138.201.225.177 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=75.145.166.75 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -13763,6 +13851,7 @@
 :do {add address=101.55.125.10 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=118.27.12.40 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=86.27.45.98 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=45.166.215.0 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=217.160.192.232 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=5.255.104.239 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=45.135.163.24 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -13793,7 +13882,6 @@
 :do {add address=172.245.233.110 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=94.16.113.89 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=178.165.126.221 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=193.218.118.189 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=216.181.20.178 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=38.89.70.34 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=140.238.145.127 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -13826,7 +13914,6 @@
 :do {add address=188.123.212.143 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=151.145.83.156 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=178.62.222.199 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=212.132.124.123 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=90.155.5.6 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=152.67.73.234 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=169.228.66.227 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -13883,6 +13970,7 @@
 :do {add address=87.106.161.235 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=23.188.56.149 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=159.223.204.85 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=79.167.76.160 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=81.109.85.125 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=195.50.212.15 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=23.92.34.118 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -13958,6 +14046,7 @@
 :do {add address=195.20.19.171 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=64.255.46.18 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=87.106.216.230 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=74.208.242.107 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=178.17.170.168 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=167.235.131.114 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=138.201.58.21 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -13988,7 +14077,7 @@
 :do {add address=193.104.220.35 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=51.15.6.36 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=195.201.94.113 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=91.63.244.171 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=91.63.252.29 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=195.34.169.13 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=167.235.112.134 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=194.13.83.131 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -14009,12 +14098,12 @@
 :do {add address=62.210.209.208 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=109.230.236.194 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=45.148.121.112 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=79.16.227.115 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=95.252.34.234 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=144.2.101.81 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=37.59.29.77 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=51.195.148.39 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=209.35.33.208 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=91.248.253.9 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=91.248.250.15 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=84.240.60.234 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=23.141.40.7 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=178.222.250.92 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -14038,7 +14127,7 @@
 :do {add address=218.144.130.245 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=198.12.97.252 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=64.65.63.10 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=152.53.246.82 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=94.156.152.21 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=192.241.250.11 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=94.23.149.136 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=198.211.105.236 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -14060,7 +14149,7 @@
 :do {add address=37.221.196.197 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=209.114.126.202 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=31.133.1.108 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=87.162.255.233 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=87.162.234.186 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=45.79.108.130 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=203.153.64.151 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.216.179.206 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -14068,6 +14157,7 @@
 :do {add address=185.21.217.55 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=172.233.182.60 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=118.166.193.195 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=146.56.107.42 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=144.168.44.26 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=172.233.152.242 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=172.245.233.31 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -14099,6 +14189,7 @@
 :do {add address=65.108.193.156 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=45.73.2.211 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=62.210.231.115 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=178.251.144.70 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=91.242.163.190 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=194.164.245.205 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=86.38.175.91 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -14140,6 +14231,7 @@
 :do {add address=77.160.53.97 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=83.212.81.32 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=208.38.243.113 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=38.244.132.241 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=94.74.164.62 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=95.99.0.136 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=45.33.198.147 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -14234,6 +14326,7 @@
 :do {add address=185.220.101.195 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=217.160.98.239 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=216.181.20.122 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=66.187.4.132 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.247.224.253 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=95.153.31.38 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=213.169.148.151 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -14266,7 +14359,7 @@
 :do {add address=62.67.28.50 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=45.33.85.245 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=92.27.11.80 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=85.16.221.26 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=37.138.231.165 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=77.68.100.49 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=89.58.36.174 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=81.137.179.68 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -14282,7 +14375,7 @@
 :do {add address=216.181.20.233 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=45.124.54.183 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=176.97.79.138 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=87.162.120.227 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=87.162.112.118 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=62.112.9.92 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=152.67.112.12 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=95.211.94.230 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -14348,7 +14441,7 @@
 :do {add address=95.217.6.94 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=23.118.142.75 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=194.15.115.92 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=93.219.38.62 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=79.221.130.240 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=216.181.20.60 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=139.180.223.39 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=69.12.83.92 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -14356,9 +14449,9 @@
 :do {add address=95.164.53.146 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=57.128.101.155 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=193.219.97.25 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=93.115.240.55 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=144.76.162.202 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=89.58.30.165 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=51.75.32.31 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=198.244.233.55 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=64.65.62.111 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=51.159.186.85 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -14378,7 +14471,7 @@
 :do {add address=135.148.100.84 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=152.53.34.99 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=85.197.40.28 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=46.142.170.211 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=46.142.171.62 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.44.66.137 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=188.165.136.205 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=78.129.240.94 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -14432,14 +14525,12 @@
 :do {add address=172.232.26.200 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=213.144.135.22 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=62.210.122.182 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=185.148.1.210 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=95.217.112.245 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=84.63.51.113 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=37.48.120.47 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=23.95.79.47 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=178.254.25.106 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=64.65.62.5 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=194.26.27.17 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=57.128.219.36 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=208.113.128.254 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=77.83.198.213 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -14483,7 +14574,7 @@
 :do {add address=172.241.140.249 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=140.78.100.25 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=23.188.56.157 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=83.135.4.241 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=83.135.5.75 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=142.204.140.244 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=94.16.118.23 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=217.154.51.180 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -14497,7 +14588,7 @@
 :do {add address=94.130.142.182 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.220.101.205 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=37.46.211.15 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=86.146.221.52 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=109.157.71.11 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=109.104.155.20 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=82.165.14.89 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=37.114.53.44 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -14512,7 +14603,7 @@
 :do {add address=180.149.44.156 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.165.171.73 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=94.159.98.28 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=91.186.40.119 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=91.186.36.153 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=216.250.247.188 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=216.9.225.156 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=172.93.48.192 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -14540,6 +14631,7 @@
 :do {add address=85.209.51.107 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=23.92.34.107 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=81.169.190.34 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=45.90.12.34 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=167.235.177.182 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=94.237.8.19 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=78.129.212.87 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -14550,7 +14642,7 @@
 :do {add address=156.146.50.7 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=70.34.244.156 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=172.245.144.123 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=91.40.126.145 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=84.144.56.68 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.106.123.50 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=69.30.239.126 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=103.241.51.67 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -14562,6 +14654,7 @@
 :do {add address=51.81.208.217 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=213.47.154.149 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=172.234.66.133 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=100.8.108.18 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=176.126.86.160 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=37.120.183.47 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=69.48.186.87 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -14617,7 +14710,7 @@
 :do {add address=146.56.99.34 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=116.202.150.27 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=162.19.244.234 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=151.26.74.139 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=151.50.137.174 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=31.172.47.28 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=51.159.195.41 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=95.216.33.58 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -14647,7 +14740,7 @@
 :do {add address=185.243.20.70 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=172.241.23.114 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=217.154.227.126 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=141.78.146.171 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=141.78.188.48 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=193.218.118.84 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=188.245.203.234 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=68.8.241.30 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -14689,6 +14782,7 @@
 :do {add address=64.65.62.125 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=23.95.73.250 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=176.84.41.86 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=95.114.163.86 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=85.215.114.1 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=172.232.162.176 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=89.58.45.45 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -14744,7 +14838,6 @@
 :do {add address=51.15.50.36 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=144.217.74.229 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=94.130.201.104 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=107.173.167.241 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=194.15.115.91 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=49.13.28.37 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=95.211.138.7 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -14794,6 +14887,7 @@
 :do {add address=142.122.107.131 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=64.65.62.180 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=188.68.35.156 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=185.12.95.150 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.169.234.138 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.132.53.7 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=136.61.69.233 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -14822,12 +14916,12 @@
 :do {add address=109.73.65.37 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=49.12.93.240 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=82.220.91.188 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=76.110.161.57 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=91.242.163.187 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.82.126.13 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=107.175.82.19 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=91.89.43.18 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=178.32.136.221 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=148.75.213.197 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=198.255.21.2 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=171.246.84.242 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=96.126.105.219 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -14948,6 +15042,7 @@
 :do {add address=24.151.1.51 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=84.155.121.233 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=83.212.72.189 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=178.57.217.39 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=216.181.20.130 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=130.193.15.191 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=220.94.240.197 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -15042,6 +15137,7 @@
 :do {add address=176.9.57.157 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=178.63.43.153 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=51.158.204.156 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=37.46.208.144 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.241.208.105 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=180.150.27.133 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=152.53.126.108 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -15162,6 +15258,7 @@
 :do {add address=193.218.118.153 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=37.63.101.165 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.194.142.73 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=206.71.158.65 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=144.217.90.187 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=5.34.210.81 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=83.136.107.114 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -15217,6 +15314,7 @@
 :do {add address=173.255.236.85 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=149.154.154.155 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=148.251.198.98 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=93.113.25.110 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=108.62.132.38 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=62.1.238.214 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.213.175.236 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -15224,7 +15322,6 @@
 :do {add address=179.43.160.164 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=140.238.218.248 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=5.181.77.8 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=83.11.190.153 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=178.32.60.161 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=188.68.41.54 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=51.81.93.39 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -15237,7 +15334,6 @@
 :do {add address=217.154.64.93 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=107.189.12.251 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=18.130.146.107 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=46.59.46.44 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=140.78.100.17 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=75.60.97.70 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=180.13.1.145 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -15311,7 +15407,6 @@
 :do {add address=38.242.218.37 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=87.120.8.176 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=92.243.64.58 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=95.160.224.226 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=77.20.3.30 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=94.46.171.221 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=150.230.253.242 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -15332,16 +15427,13 @@
 :do {add address=213.164.218.84 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=198.199.92.217 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=23.92.34.41 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=5.181.80.181 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=2.58.203.60 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=194.140.221.42 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=96.9.98.25 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=195.230.168.83 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=51.68.197.220 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=178.175.148.195 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=84.115.128.225 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=76.135.124.152 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=91.142.77.203 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=107.175.63.59 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=82.149.227.124 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=172.233.242.114 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -15360,7 +15452,7 @@
 :do {add address=162.156.213.92 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=166.1.126.172 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=61.75.78.153 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=92.117.21.168 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=92.117.20.48 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=37.48.92.67 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=45.95.169.41 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=205.185.124.164 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -15369,7 +15461,9 @@
 :do {add address=88.151.194.118 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=188.91.4.123 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=146.190.16.208 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=85.209.50.10 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=209.133.196.18 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=93.126.105.202 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=91.184.164.255 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=193.23.244.244 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.241.208.101 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -15378,7 +15472,7 @@
 :do {add address=203.12.12.233 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.17.178.132 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=70.34.250.156 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=77.0.0.185 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=77.1.50.4 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=85.215.218.206 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=138.201.57.234 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=193.30.122.222 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -15434,7 +15528,7 @@
 :do {add address=152.53.102.95 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=70.175.76.239 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=85.239.41.121 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=92.116.232.244 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=92.116.232.75 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=45.125.166.58 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=152.53.88.212 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=176.58.124.159 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -15442,7 +15536,6 @@
 :do {add address=87.138.152.33 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=193.182.111.43 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=123.255.62.137 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=209.122.41.58 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=64.65.62.161 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=220.233.29.62 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=208.115.216.54 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -15461,10 +15554,13 @@
 :do {add address=185.130.47.205 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=178.250.186.47 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=54.39.118.29 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=79.127.184.194 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=95.216.88.86 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=64.65.62.22 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.148.1.211 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=217.154.58.229 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=212.227.135.112 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=116.255.28.88 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=5.75.213.11 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=37.252.190.176 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=23.111.189.202 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -15557,7 +15653,7 @@
 :do {add address=69.164.210.140 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=119.18.25.254 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=176.65.138.62 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=89.245.41.109 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=89.245.43.28 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=206.217.136.47 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.73.211.9 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=193.109.69.54 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -15565,7 +15661,7 @@
 :do {add address=75.145.166.68 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=143.198.38.18 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=193.30.123.113 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=93.127.238.48 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=212.53.236.167 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=95.217.2.206 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=103.107.198.238 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=107.189.12.52 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -15594,11 +15690,12 @@
 :do {add address=81.169.134.23 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=202.171.184.118 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=75.184.13.239 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=15.204.199.167 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=93.245.132.140 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=140.78.100.19 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=213.165.93.165 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=8.42.76.68 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=109.250.191.83 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=109.250.189.11 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.241.208.126 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=51.81.93.37 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=213.152.162.181 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -15634,7 +15731,7 @@
 :do {add address=23.188.56.143 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=31.126.252.200 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=75.185.32.17 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=212.233.37.147 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=94.105.107.58 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=174.103.209.32 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=158.101.103.203 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=103.144.139.77 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -15648,7 +15745,6 @@
 :do {add address=92.249.143.119 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=194.164.169.85 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=32.223.248.27 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=46.248.164.24 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=38.180.235.158 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=89.58.17.212 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=45.66.43.3 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -15686,7 +15782,7 @@
 :do {add address=195.201.174.108 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=46.226.106.182 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=129.151.218.233 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=80.131.120.16 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=87.158.135.162 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=188.214.132.49 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=199.241.137.60 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=109.104.152.134 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -15705,7 +15801,7 @@
 :do {add address=213.145.199.32 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=217.28.130.73 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=152.86.6.232 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=81.25.175.169 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=149.224.94.233 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=164.90.164.10 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=178.62.24.212 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=61.228.194.90 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -15751,7 +15847,7 @@
 :do {add address=216.181.20.9 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=54.37.139.118 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=23.88.154.69 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=149.224.34.48 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=188.136.252.233 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=37.120.194.126 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=95.216.13.55 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=137.59.56.138 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -15819,7 +15915,7 @@
 :do {add address=78.153.140.44 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=216.181.20.180 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=77.162.229.73 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=79.41.151.153 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=87.4.15.168 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=148.251.83.53 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=51.83.132.103 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=135.148.150.100 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -15860,7 +15956,6 @@
 :do {add address=159.69.36.3 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=37.27.47.98 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=132.145.216.76 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=185.221.152.42 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=157.173.113.52 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=216.181.20.211 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=46.29.166.59 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -15906,7 +16001,7 @@
 :do {add address=104.220.191.127 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.169.242.123 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=184.18.93.88 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=91.3.204.179 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=87.179.160.24 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=192.24.207.200 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=94.16.107.178 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=94.16.105.206 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -15974,7 +16069,6 @@
 :do {add address=216.181.20.170 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=91.65.103.214 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=87.78.117.91 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=129.151.170.233 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=136.243.7.11 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=140.78.100.14 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=92.176.200.1 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16001,7 +16095,6 @@
 :do {add address=216.181.20.144 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=37.230.128.47 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=213.164.193.245 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=87.106.71.19 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=94.23.76.52 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=139.144.207.122 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=96.9.98.1 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16026,6 +16119,7 @@
 :do {add address=194.164.16.95 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=89.46.100.71 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=176.9.161.22 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=195.123.244.116 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=123.253.34.26 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=86.29.231.36 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=102.68.86.91 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16037,6 +16131,7 @@
 :do {add address=130.61.37.185 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=207.153.6.185 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=83.114.38.235 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=148.56.77.121 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=190.211.254.101 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=24.196.214.71 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=49.13.76.37 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16102,7 +16197,7 @@
 :do {add address=139.99.170.213 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=91.219.237.216 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=23.184.48.69 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=91.2.48.85 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=91.59.230.56 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=64.65.63.3 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=178.18.246.223 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=172.234.120.87 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16136,6 +16231,7 @@
 :do {add address=80.152.201.148 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=77.174.164.37 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.175.158.198 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=87.106.134.107 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=159.69.220.27 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=37.228.129.53 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=102.130.113.30 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16174,10 +16270,12 @@
 :do {add address=130.162.54.65 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=157.230.248.68 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=213.108.108.85 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=82.153.138.215 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.157.120.61 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=98.25.152.225 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=82.66.109.102 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=37.120.184.36 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=195.52.154.204 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=62.144.40.101 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=217.160.226.12 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=89.58.0.34 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=83.255.156.57 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16271,6 +16369,7 @@
 :do {add address=64.65.62.170 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=95.216.193.39 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=93.199.90.148 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=58.9.110.19 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=158.51.125.98 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=91.228.52.8 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=192.121.44.27 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16308,7 +16407,6 @@
 :do {add address=188.40.128.246 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=108.181.57.253 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=31.6.1.23 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=46.231.240.77 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=51.158.204.114 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=68.234.73.164 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=145.239.93.202 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16335,11 +16433,11 @@
 :do {add address=46.4.96.24 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=181.214.58.12 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=216.181.20.100 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=46.226.105.163 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=144.76.166.199 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=95.217.162.68 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=188.165.137.247 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.125.169.30 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=91.114.206.211 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=91.200.100.207 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=95.179.162.106 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=45.92.70.126 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16358,7 +16456,6 @@
 :do {add address=46.17.40.249 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=5.9.156.17 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=198.23.133.146 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=73.249.91.193 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=85.215.77.30 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=172.233.160.133 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=216.181.20.220 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16396,6 +16493,7 @@
 :do {add address=24.80.191.129 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=74.123.97.26 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=108.62.132.37 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=82.153.138.103 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=193.168.143.107 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=69.12.83.95 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=38.68.135.5 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16407,6 +16505,7 @@
 :do {add address=65.49.20.11 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=45.137.70.158 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=71.241.255.125 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=65.20.112.134 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=14.169.229.78 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=188.245.217.208 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.228.138.86 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16432,7 +16531,7 @@
 :do {add address=149.50.13.221 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=212.132.69.188 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=190.211.254.192 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=79.117.13.229 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=86.127.241.217 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=144.76.175.205 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=212.47.233.86 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=194.164.173.152 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16459,8 +16558,8 @@
 :do {add address=79.124.7.11 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=45.86.86.231 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=93.186.200.169 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=14.100.60.159 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=216.181.20.6 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=2.243.135.59 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=54.180.244.111 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=24.128.81.156 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=5.252.178.37 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16496,7 +16595,7 @@
 :do {add address=185.112.249.156 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=217.154.58.238 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=202.61.204.53 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=80.131.226.239 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=80.131.230.196 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=130.61.189.174 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=140.78.100.40 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=212.227.135.114 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16536,7 +16635,7 @@
 :do {add address=145.239.81.58 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=87.106.129.242 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=96.232.181.85 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=212.53.255.98 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=93.127.240.27 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=217.154.16.112 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=147.182.202.137 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=82.168.62.152 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16549,7 +16648,7 @@
 :do {add address=185.126.117.5 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=162.255.84.47 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=162.251.166.210 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=84.172.116.236 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=84.172.118.29 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=82.165.171.134 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=64.65.62.144 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=128.199.131.168 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16557,8 +16656,8 @@
 :do {add address=93.177.65.182 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=85.90.207.21 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=15.204.14.102 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=82.196.11.10 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=99.250.74.140 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=78.80.47.85 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=86.175.118.167 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=181.43.109.13 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=23.188.56.146 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16568,6 +16667,7 @@
 :do {add address=209.141.50.94 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=5.255.98.186 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=149.130.215.238 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=158.69.0.227 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=74.106.232.4 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=158.220.98.150 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=152.53.131.2 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16590,9 +16690,10 @@
 :do {add address=65.108.129.218 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=101.99.94.185 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=135.148.54.106 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=45.77.113.146 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=65.108.193.42 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=89.58.3.114 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=213.162.143.182 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=213.162.143.142 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=49.13.60.54 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=213.171.214.222 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=99.183.199.69 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16609,10 +16710,10 @@
 :do {add address=5.182.48.185 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=217.163.129.42 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=146.190.114.173 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=134.101.43.158 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=5.182.48.174 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=5.182.48.180 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=213.113.3.203 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=80.73.237.127 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=18.18.82.18 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=5.182.48.178 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=89.36.231.204 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16626,7 +16727,7 @@
 :do {add address=137.59.185.179 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=78.46.123.26 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=213.202.223.75 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=77.183.1.86 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=77.11.85.163 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=15.204.59.68 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=172.219.92.78 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=96.9.98.12 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16669,7 +16770,7 @@
 :do {add address=79.118.217.87 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=134.185.83.121 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=51.15.242.244 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=46.142.64.195 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=46.142.67.167 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=64.188.97.76 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=178.254.37.2 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=20.235.172.46 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16681,7 +16782,7 @@
 :do {add address=172.245.106.179 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=89.47.50.223 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=109.228.39.19 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=46.59.214.59 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=149.224.36.98 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=216.181.20.222 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=152.53.15.127 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=103.251.166.10 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16753,6 +16854,7 @@
 :do {add address=158.180.25.76 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=107.174.55.66 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=178.194.187.72 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=217.129.165.196 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=184.144.51.151 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=80.200.4.100 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=99.106.143.239 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16772,7 +16874,7 @@
 :do {add address=213.139.243.22 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=94.199.214.229 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=176.123.1.67 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=79.253.8.208 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=79.253.17.43 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=134.93.49.75 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=87.118.88.94 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=89.58.43.207 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16796,7 +16898,7 @@
 :do {add address=89.58.48.237 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=77.223.215.105 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=114.175.95.238 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=79.16.147.209 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=79.30.166.167 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=77.73.67.125 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=86.122.106.41 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=154.53.164.216 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16821,6 +16923,7 @@
 :do {add address=152.53.111.174 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=144.202.98.106 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=142.132.157.35 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=87.106.35.94 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=91.132.132.100 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=18.118.173.86 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=199.170.132.80 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16862,7 +16965,6 @@
 :do {add address=171.66.3.87 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=209.58.145.75 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=5.135.199.11 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=61.69.216.196 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=77.164.187.211 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=23.105.172.1 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=163.44.103.95 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16888,7 +16990,7 @@
 :do {add address=23.188.56.150 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=194.14.0.242 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=82.223.39.79 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=79.250.230.141 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=84.173.158.183 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=216.181.20.34 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=94.143.137.213 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=45.67.219.13 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16916,7 +17018,7 @@
 :do {add address=64.65.63.25 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=87.120.237.130 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=146.190.96.130 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=62.93.6.89 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=62.93.6.152 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=69.164.201.204 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=136.243.89.124 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=206.198.210.210 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16954,7 +17056,6 @@
 :do {add address=216.181.20.171 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=209.209.10.208 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=74.123.97.10 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=91.5.166.72 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=212.32.226.4 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=94.131.14.31 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=168.119.2.55 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16970,6 +17071,7 @@
 :do {add address=136.244.87.226 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=51.75.26.184 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=166.84.6.10 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=45.143.199.199 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=31.42.177.60 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=66.165.241.230 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=45.155.142.105 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16980,13 +17082,12 @@
 :do {add address=91.208.197.187 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=23.88.44.26 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=203.86.195.200 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=217.156.67.252 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=51.75.124.162 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=83.168.88.144 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=157.143.119.5 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=89.58.27.85 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=51.81.155.228 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=5.15.186.76 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=5.15.33.36 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=15.204.31.220 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=193.30.122.232 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=95.211.210.72 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -16995,6 +17096,7 @@
 :do {add address=144.24.178.238 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=46.38.237.221 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=66.111.2.20 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=69.48.206.32 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=46.38.237.49 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=188.166.136.51 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=64.65.62.40 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -17010,13 +17112,13 @@
 :do {add address=85.215.129.4 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=23.92.36.131 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=23.188.56.145 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=92.117.20.220 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=92.117.22.108 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=51.15.232.19 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=95.142.102.58 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=85.215.191.127 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=37.46.211.16 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=194.42.196.34 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=79.251.191.111 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=91.47.41.28 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=144.76.168.36 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=216.181.20.101 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=5.255.103.153 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -17031,6 +17133,7 @@
 :do {add address=37.120.185.216 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=89.163.135.8 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=23.106.120.42 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=162.243.168.143 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=162.251.116.34 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.99.2.160 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=152.53.124.86 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -17048,7 +17151,7 @@
 :do {add address=87.149.74.180 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=37.120.186.122 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.125.169.25 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=82.207.214.54 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=82.207.213.17 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=79.141.165.172 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=83.164.133.45 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=146.190.224.96 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -17056,7 +17159,6 @@
 :do {add address=158.69.205.247 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=72.69.168.41 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.10.16.41 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=148.56.77.121 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=138.201.54.59 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=164.132.75.248 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=31.164.110.176 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -17067,7 +17169,7 @@
 :do {add address=217.76.159.216 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=47.185.90.211 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=65.21.181.32 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=84.139.22.246 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=84.170.140.211 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=93.180.134.118 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=172.105.6.34 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=82.64.150.101 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -17134,7 +17236,7 @@
 :do {add address=203.221.205.99 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=88.133.99.49 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=103.76.182.181 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=84.169.162.254 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=84.184.28.172 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=152.53.118.246 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=84.183.231.105 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.162.249.126 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -17157,13 +17259,13 @@
 :do {add address=147.189.172.201 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=64.65.63.22 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=135.181.67.210 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=77.12.43.53 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=77.187.26.165 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.100.86.70 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=85.0.13.156 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=198.54.129.52 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=82.165.116.173 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=20.160.225.224 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=181.214.218.49 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=149.22.90.236 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=108.181.133.69 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=103.28.53.25 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=216.181.20.88 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -17176,12 +17278,11 @@
 :do {add address=172.233.16.18 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.82.219.77 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=64.65.62.191 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=77.179.68.175 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=77.189.249.176 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=45.148.122.114 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=77.166.211.126 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=96.9.98.65 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=51.77.210.24 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=141.144.245.205 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.212.47.242 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=216.181.20.7 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=50.82.179.110 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -17197,7 +17298,7 @@
 :do {add address=172.245.55.112 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=94.16.117.179 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=162.43.17.198 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=84.158.11.181 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=84.158.14.206 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=46.23.108.195 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=64.65.62.90 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=172.98.195.205 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -17230,7 +17331,6 @@
 :do {add address=185.44.67.59 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=217.79.252.202 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=217.12.206.128 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=24.151.1.53 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.80.30.102 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=188.126.83.38 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.112.146.205 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -17268,7 +17368,6 @@
 :do {add address=149.28.238.153 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=198.98.49.200 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=149.56.47.245 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=109.100.59.186 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=45.92.11.136 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=109.209.62.239 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=96.9.98.45 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -17299,7 +17398,7 @@
 :do {add address=63.141.234.37 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=167.179.71.27 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=15.204.87.24 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=2.241.102.81 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=77.8.3.97 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=84.139.33.52 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=23.95.79.221 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=23.88.110.231 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -17350,6 +17449,7 @@
 :do {add address=109.69.218.51 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=205.185.126.225 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=54.39.52.18 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=185.148.1.210 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=64.65.62.155 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=163.172.70.175 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.48.250.112 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -17396,8 +17496,7 @@
 :do {add address=152.53.86.165 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=45.86.228.153 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=108.28.159.250 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=5.45.104.89 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=59.115.180.18 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=59.115.169.50 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=77.68.50.213 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=23.188.56.153 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=82.165.196.165 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -17409,8 +17508,6 @@
 :do {add address=15.204.247.142 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=166.1.173.49 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=131.188.40.188 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=138.74.139.115 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=172.236.20.150 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=64.65.62.201 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=45.125.65.45 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=83.251.235.20 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -17473,13 +17570,11 @@
 :do {add address=45.13.225.69 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=141.253.98.97 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=188.214.88.31 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=193.218.118.88 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=24.152.185.226 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=5.230.119.192 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=212.227.65.42 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=109.71.252.182 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=176.120.75.187 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=174.164.98.144 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=94.176.2.52 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=67.207.73.55 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=133.130.98.124 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -17493,6 +17588,7 @@
 :do {add address=185.216.25.48 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=24.64.90.236 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=135.148.100.233 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=57.128.223.198 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=179.61.251.86 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=212.144.96.29 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=94.21.166.86 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -17538,9 +17634,8 @@
 :do {add address=64.65.62.210 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=51.75.17.236 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=104.244.75.168 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=89.246.48.36 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=178.254.18.186 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=87.173.166.126 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=87.177.28.233 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=77.90.41.106 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=192.9.235.157 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=103.97.125.218 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -17586,7 +17681,6 @@
 :do {add address=80.109.15.61 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=95.98.150.94 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=51.79.65.244 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=198.167.206.151 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=159.203.7.160 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=128.127.149.91 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=71.42.125.218 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -17606,7 +17700,7 @@
 :do {add address=51.81.93.109 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=185.246.86.175 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=98.206.28.99 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=94.229.145.33 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=217.25.165.82 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=160.251.46.239 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=66.103.204.121 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=45.83.20.200 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -17620,7 +17714,6 @@
 :do {add address=164.90.152.167 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=57.128.159.170 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=92.60.36.222 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=81.56.71.129 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=82.165.206.196 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=176.97.75.4 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=69.12.83.106 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -17633,6 +17726,7 @@
 :do {add address=141.105.130.78 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=46.28.109.231 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=45.14.233.213 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=82.68.35.15 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=95.216.22.24 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=5.255.110.89 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=5.253.247.27 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -17691,7 +17785,7 @@
 :do {add address=139.84.239.132 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=38.175.134.90 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=194.163.172.26 list=VPN comment=TOR-CSV timeout=23h} on-error={}
-:do {add address=79.236.167.216 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=84.129.80.165 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=85.215.67.230 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=109.69.218.176 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=51.15.95.231 list=VPN comment=TOR-CSV timeout=23h} on-error={}
@@ -17780,6 +17874,7 @@
 :do {add address=192.227.212.134 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=148.251.90.115 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=174.84.33.39 list=VPN comment=TOR-CSV timeout=23h} on-error={}
+:do {add address=92.222.79.186 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=155.138.137.144 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=192.95.29.105 list=VPN comment=TOR-CSV timeout=23h} on-error={}
 :do {add address=152.53.65.169 list=VPN comment=TOR-CSV timeout=23h} on-error={}
