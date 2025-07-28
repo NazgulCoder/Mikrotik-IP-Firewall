@@ -17,6 +17,7 @@ If any of the blacklists is not mantained anymore it eventually will be removed.
 - [hookzof ProxyList](https://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt)
 - [jetkai ProxyList](https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies.txt)
 - [alireza-rezaee TOR List](https://raw.githubusercontent.com/alireza-rezaee/tor-nodes/refs/heads/main/latest.all.csv)
+- [Cloudflare-WARP Endpoints](https://raw.githubusercontent.com/NazgulCoder/IPLists/refs/heads/main/resources/cloudflare-warp.txt)
 
 [blacklist.rsc](https://raw.githubusercontent.com/NazgulCoder/Mikrotik-IP-Firewall/main/blacklist.rsc) includes the following ones for an optimal Firewall security:
 
