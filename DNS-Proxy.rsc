@@ -1,4 +1,4 @@
-# Generated on 31 Dec 2025 at 00:04:05
+# Generated on 01 Jan 2026 at 00:04:05
 :do {/ip firewall address-list
 :do {add address=1.0.0.1 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=1.0.0.2 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -20,18 +20,11 @@
 :do {add address=3.90.134.65 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=3.108.130.184 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=3.140.31.159 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=3.162.125.2 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=3.162.125.16 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=3.162.125.115 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=3.162.125.117 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=3.171.61.34 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=3.171.61.46 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=3.171.61.91 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=3.171.61.113 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=3.217.141.28 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=3.218.219.225 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=3.221.59.219 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=3.227.192.213 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=5.2.72.7 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=5.2.75.75 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=5.11.11.5 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=5.11.11.11 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -41,31 +34,25 @@
 :do {add address=5.75.228.192 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=5.78.98.38 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=5.78.102.99 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=5.78.158.2 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=5.79.70.195 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=5.134.118.198 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=5.135.96.35 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=5.135.96.36 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=5.160.254.27 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=5.161.43.197 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=5.161.194.22 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=5.161.191.104 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=5.175.180.171 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=5.180.59.37 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=5.188.227.13 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=5.196.8.241 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=5.196.74.76 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=5.255.100.5 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=5.255.103.159 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=5.255.111.70 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=8.8.4.4 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=8.8.8.8 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=8.20.247.20 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=8.25.82.224 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=8.25.82.225 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=8.25.82.226 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=8.25.82.227 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=8.25.82.228 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=8.25.82.229 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=8.25.82.230 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=8.25.82.231 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=8.26.56.26 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=8.138.100.213 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=8.209.231.130 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -911,9 +898,17 @@
 :do {add address=17.253.126.219 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=17.253.126.223 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=18.168.255.186 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=18.173.121.4 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=18.173.121.25 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=18.173.121.35 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=18.173.121.87 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=18.195.195.69 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=18.200.70.220 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=18.202.82.211 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=18.244.214.6 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=18.244.214.91 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=18.244.214.119 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=18.244.214.128 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=18.252.156.1 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=18.254.96.167 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=20.196.107.56 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -934,6 +929,7 @@
 :do {add address=23.189.248.127 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=23.191.80.43 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=23.230.253.98 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=23.239.3.190 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=23.251.158.202 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=24.199.70.134 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=24.240.146.7 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -969,8 +965,6 @@
 :do {add address=36.138.230.22 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=36.156.184.156 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=37.16.18.81 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=37.19.207.37 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=37.19.207.38 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=37.27.218.33 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=37.59.103.226 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=37.59.122.154 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -1051,6 +1045,7 @@
 :do {add address=45.8.222.61 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=45.8.222.62 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=45.11.45.11 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=45.32.75.24 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=45.32.79.76 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=45.33.60.119 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=45.33.66.148 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -1113,6 +1108,7 @@
 :do {add address=46.102.156.165 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=46.124.85.193 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=46.161.54.34 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=46.165.252.147 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=46.224.121.140 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=46.226.108.173 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=46.226.109.82 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -1154,7 +1150,6 @@
 :do {add address=51.158.147.92 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=51.159.67.129 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=51.159.138.172 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=51.161.115.44 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=51.178.29.75 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=51.178.82.98 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=51.178.136.114 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -1188,10 +1183,6 @@
 :do {add address=54.172.110.180 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=54.173.8.137 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=54.187.149.240 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=54.192.55.54 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=54.192.55.71 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=54.192.55.73 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=54.192.55.95 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=54.198.94.26 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=54.223.159.81 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=54.224.16.96 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -1219,7 +1210,7 @@
 :do {add address=64.227.132.183 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=65.21.253.73 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=65.108.54.17 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=66.33.60.130 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=66.33.60.34 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=66.55.159.186 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=66.154.118.103 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=66.175.223.143 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -1246,7 +1237,7 @@
 :do {add address=75.119.137.239 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=76.76.2.11 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=76.76.2.22 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=76.76.21.123 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=76.76.21.93 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=76.223.37.67 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=76.223.54.146 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=76.223.67.189 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -1284,8 +1275,6 @@
 :do {add address=80.90.179.4 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=80.96.156.232 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=80.147.149.90 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=80.152.203.134 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=80.153.146.105 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=80.156.145.201 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=80.211.133.9 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=80.211.196.177 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -1407,7 +1396,7 @@
 :do {add address=93.144.34.114 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=93.190.126.69 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=93.200.20.113 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=93.234.201.19 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=93.221.54.148 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=94.16.111.86 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=94.16.117.107 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=94.23.71.64 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -1434,8 +1423,10 @@
 :do {add address=95.174.68.242 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=95.179.152.253 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=95.215.19.53 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=95.216.74.122 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=95.216.99.249 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=95.216.187.185 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=95.216.213.181 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=95.217.6.67 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=95.217.11.63 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=95.217.25.217 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -1444,6 +1435,7 @@
 :do {add address=96.9.215.92 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=96.9.228.27 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=96.106.7.232 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=96.106.7.234 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=96.113.151.145 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=98.82.42.139 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=98.87.219.17 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -1462,7 +1454,7 @@
 :do {add address=101.198.193.29 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=101.236.69.43 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=102.37.148.2 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=102.113.44.34 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=102.113.28.45 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=102.222.106.96 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=103.1.223.110 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=103.2.57.5 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -1507,7 +1499,6 @@
 :do {add address=103.176.20.107 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=103.179.44.73 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=103.179.45.6 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=103.181.143.111 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=103.196.38.200 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=103.196.152.126 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=103.199.16.93 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -1542,6 +1533,7 @@
 :do {add address=104.21.13.241 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=104.21.15.169 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=104.21.16.31 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=104.21.16.173 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=104.21.21.104 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=104.21.24.104 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=104.21.25.121 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -1553,6 +1545,7 @@
 :do {add address=104.21.36.139 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=104.21.37.15 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=104.21.38.246 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=104.21.39.103 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=104.21.41.66 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=104.21.41.69 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=104.21.41.194 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -1592,6 +1585,7 @@
 :do {add address=104.21.69.35 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=104.21.70.99 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=104.21.70.114 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=104.21.72.104 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=104.21.72.185 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=104.21.72.203 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=104.21.73.30 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -1637,7 +1631,6 @@
 :do {add address=104.238.181.28 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=104.244.72.39 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=104.244.209.134 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=104.247.208.2 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=104.248.104.66 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=106.55.44.79 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=106.55.91.174 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -1646,6 +1639,10 @@
 :do {add address=107.173.187.132 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=108.61.82.9 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=108.61.208.139 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=108.139.10.6 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=108.139.10.28 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=108.139.10.41 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=108.139.10.112 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=108.175.15.215 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=108.181.69.153 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=109.70.74.38 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -1655,11 +1652,13 @@
 :do {add address=109.123.236.250 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=109.123.253.27 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=109.163.225.33 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=109.173.165.131 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=109.173.232.143 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=109.205.61.98 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=109.205.183.11 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=109.234.165.186 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=109.250.196.58 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=109.236.119.2 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=109.236.120.2 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=109.250.196.42 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=109.250.204.199 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=111.20.254.35 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=111.230.54.20 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -1694,7 +1693,6 @@
 :do {add address=121.121.197.217 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=122.117.222.121 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=122.254.0.63 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=123.26.193.85 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=124.70.37.233 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=124.217.247.170 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=124.219.110.49 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -1706,7 +1704,6 @@
 :do {add address=128.140.110.120 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=128.210.6.106 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=128.254.207.50 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=129.80.39.60 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=129.146.13.150 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=129.146.238.240 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=129.151.161.172 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -1715,23 +1712,22 @@
 :do {add address=129.154.47.149 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=129.154.217.90 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=129.159.249.152 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=129.213.0.178 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=129.213.2.162 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=129.213.138.95 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=130.59.31.80 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=130.59.31.248 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=130.59.31.251 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=130.61.4.165 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=130.61.2.165 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=130.61.24.160 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=130.61.51.39 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=130.61.121.181 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=130.61.149.26 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=130.61.173.117 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=130.162.39.94 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=130.225.244.166 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=130.226.161.34 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=131.186.19.137 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=131.186.63.141 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=132.145.0.172 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=132.145.2.168 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=132.145.83.120 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=132.145.97.178 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=132.145.98.168 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -1757,6 +1753,7 @@
 :do {add address=137.66.7.89 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=137.74.29.10 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=137.220.51.178 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=138.2.72.94 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=138.2.75.228 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=138.2.122.236 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=138.2.123.220 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -1838,6 +1835,7 @@
 :do {add address=147.189.136.104 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=147.189.140.136 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=149.28.101.119 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=149.28.121.105 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=149.28.144.189 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=149.88.64.107 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=149.104.186.91 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -1936,11 +1934,20 @@
 :do {add address=162.220.222.155 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=162.221.218.241 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=162.250.6.163 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=162.253.68.226 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=162.254.86.13 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=162.255.119.236 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=163.47.117.176 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=163.172.68.245 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=163.172.131.116 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=163.181.66.188 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=163.181.66.189 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=163.181.66.190 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=163.181.66.191 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=163.181.66.211 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=163.181.66.212 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=163.181.66.213 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=163.181.66.214 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=164.90.207.7 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=164.92.237.199 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=164.132.7.242 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -1972,6 +1979,7 @@
 :do {add address=168.138.199.16 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=168.235.111.72 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=169.48.27.179 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=169.150.221.147 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=169.239.128.124 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=170.39.224.134 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=170.39.225.135 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -1983,7 +1991,6 @@
 :do {add address=172.64.41.8 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=172.64.42.1 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=172.64.42.2 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=172.64.80.1 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=172.65.132.254 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=172.65.133.172 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=172.65.135.187 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -2015,6 +2022,7 @@
 :do {add address=172.67.141.38 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=172.67.141.105 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=172.67.141.133 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=172.67.144.52 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=172.67.144.182 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=172.67.145.24 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=172.67.147.178 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -2044,6 +2052,7 @@
 :do {add address=172.67.172.12 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=172.67.174.210 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=172.67.177.65 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=172.67.181.168 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=172.67.182.154 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=172.67.184.76 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=172.67.187.81 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -2075,6 +2084,7 @@
 :do {add address=172.67.213.216 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=172.67.214.8 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=172.67.214.210 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=172.67.214.227 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=172.67.214.241 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=172.67.216.77 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=172.67.217.56 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -2271,11 +2281,12 @@
 :do {add address=176.123.10.105 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=176.123.163.193 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=176.147.243.164 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=176.164.134.208 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=176.164.160.188 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=178.20.42.213 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=178.22.122.100 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=178.22.122.101 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=178.33.118.153 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=178.85.214.38 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=178.128.225.109 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=178.162.228.11 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=178.162.228.12 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -2334,6 +2345,7 @@
 :do {add address=185.183.159.34 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=185.194.53.22 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=185.194.94.71 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=185.195.69.126 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=185.207.125.100 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=185.222.153.70 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=185.222.222.222 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -2383,6 +2395,7 @@
 :do {add address=192.121.170.151 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=192.145.47.80 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=192.248.190.14 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=192.252.220.18 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=193.7.200.123 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=193.17.47.1 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=193.17.92.42 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -2451,8 +2464,6 @@
 :do {add address=198.54.117.10 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=198.54.117.11 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=198.58.111.139 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=198.98.183.36 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=198.98.183.52 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=198.140.141.46 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=198.180.150.12 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=198.199.103.49 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -2481,6 +2492,7 @@
 :do {add address=204.10.79.38 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=204.12.237.197 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=204.216.154.80 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=205.185.117.191 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=206.119.179.8 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=206.189.240.157 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=207.127.93.3 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -2494,7 +2506,7 @@
 :do {add address=208.67.222.2 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=208.67.222.123 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=208.67.222.222 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=208.167.248.121 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=209.58.130.142 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=209.182.225.103 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=209.208.26.145 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=209.209.57.165 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -2531,11 +2543,10 @@
 :do {add address=216.238.80.219 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=216.238.107.112 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=216.245.140.20 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=217.0.43.50 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=217.0.43.114 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=217.0.43.146 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=217.0.43.162 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=217.30.10.68 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=217.61.98.63 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=217.91.179.72 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=217.154.52.156 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=217.154.118.152 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=217.154.148.131 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
@@ -2547,12 +2558,12 @@
 :do {add address=217.169.20.22 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=217.169.20.23 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=217.197.91.153 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=217.255.219.85 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=217.255.220.86 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=218.75.4.130 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=218.154.183.208 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=220.84.185.202 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=220.135.223.18 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
-:do {add address=220.143.21.217 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
+:do {add address=220.143.29.77 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=221.131.165.165 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=222.99.114.172 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
 :do {add address=223.5.5.5 list=DNS-Proxy comment=DNS-Proxy2 timeout=23h} on-error={}
