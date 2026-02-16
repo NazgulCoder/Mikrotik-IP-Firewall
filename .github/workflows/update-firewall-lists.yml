@@ -1,0 +1,51 @@
+name: Update Mikrotik Firewall Lists
+
+on:
+  schedule:
+    # Alle 23:00 UTC = 00:00 CET / 01:00 CEST
+    - cron: '0 23 * * *'
+  workflow_dispatch:  # Permette esecuzione manuale
+
+jobs:
+  update-lists:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          pip install -r scripts/requirements.txt
+      
+      - name: Generate DNS-Proxy list
+        run: python scripts/dns_proxy.py
+      
+      - name: Generate Blacklist
+        run: python scripts/blacklist.py
+      
+      - name: Generate VPN-Proxy-Tor list
+        run: python scripts/vpn_proxy_tor.py
+      
+      - name: Check for changes
+        id: verify_diff
+        run: |
+          git diff --quiet . || echo "changed=true" >> $GITHUB_OUTPUT
+      
+      - name: Commit and push if changed
+        if: steps.verify_diff.outputs.changed == 'true'
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add *.rsc
+          git commit -m "🤖 Auto-update firewall lists - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+          git push
