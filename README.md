@@ -60,7 +60,7 @@ name="BlacklistUpdater" on-event=DownloadBlacklist \
 start-date=jan/01/1970 start-time=01:00:00
 ```
 
-## SELFHOSTED
+## SELFHOSTED - OLD (REPLACED BY GITHUB WORKFLOWS)
 
 To deploy this project you just need Apache or NGINX and PHP (I'm using 7.3, however 8.X version should be working as well)
 
@@ -107,7 +107,7 @@ Why PHP?
 
 MIT License
 
-Copyright (c) [2025] [NazgulCoder]
+Copyright (c) [2026] [NazgulCoder]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
