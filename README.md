@@ -27,7 +27,7 @@ If any of the blacklists is not mantained anymore it eventually will be removed.
 
 I decided to make also a list [DNS-Proxy.rsc](https://raw.githubusercontent.com/NazgulCoder/Mikrotik-IP-Firewall/main/DNS-Proxy.rsc) in case you want to force users in your network to use your DNS Server such as AdguardHome, Pi-Hole, Windows Server etc. Just block those IPs on the ports 53, 443, 853 and 8853. This includes the following lists:
 - [dibdot List](https://raw.githubusercontent.com/dibdot/DoH-IP-blocklists/master/doh-ipv4.txt)
-- [jpgpi250 List](https://raw.githubusercontent.com/jpgpi250/piholemanual/master/DOHipv4.txt)
+- [jpgpi250 List](https://raw.githubusercontent.com/jpgpi250/piholemanual/refs/heads/master/DOH/ipv4/DOHipv4.txt)
 
 
 
