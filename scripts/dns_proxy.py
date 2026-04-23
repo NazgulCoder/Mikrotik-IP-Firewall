@@ -14,7 +14,7 @@ PRIVATE_RANGES = [
 WHITELIST = ['151.139.128.10', '76.76.21.21']
 
 SOURCES = [
-    ('https://raw.githubusercontent.com/jpgpi250/piholemanual/master/DOHipv4.txt', 'DNS-Proxy1'),
+    ('https://raw.githubusercontent.com/jpgpi250/piholemanual/refs/heads/master/DOH/ipv4/DOHipv4.txt', 'DNS-Proxy1'),
     ('https://raw.githubusercontent.com/dibdot/DoH-IP-blocklists/master/doh-ipv4.txt', 'DNS-Proxy2'),
 ]
 
