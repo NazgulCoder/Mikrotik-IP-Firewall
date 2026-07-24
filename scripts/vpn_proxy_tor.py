@@ -91,7 +91,7 @@ def generate_list():
     for idx, (url, comment) in enumerate(SOURCES):
         print(f"Fetching from {url}...")
         ips = fetch_ips(url)
-        is_csv = (idx == 8)  # CSV source
+        is_csv = (idx == 8)  # solo la sorgente CSV
         
         for entry in ips:
             ip_entry, base_ip = parse_ip_entry(entry, is_csv)
@@ -106,11 +106,15 @@ def generate_list():
     
     with open(output_file, 'w') as f:
         f.write(f"# Generated on {datetime.now().strftime('%d %b %Y')} at {datetime.now().strftime('%H:%M:%S')}\n")
+        
+        # Rimuovi le vecchie entry per tutte le sorgenti definite in SOURCES (dinamicamente)
+        for _, comment in SOURCES:
+            f.write(f":do {{ /ip firewall address-list remove [find comment=\"{comment}\"] }} on-error={{}}\n")
+        
+        # Aggiungi le nuove entry
         f.write(":do {/ip firewall address-list\n")
-        
         for ip_entry, comment in sorted(entries):
-            f.write(f":do {{add address={ip_entry} list={listname} comment={comment} timeout=23h}} on-error={{}}\n")
-        
+            f.write(f":do {{add address={ip_entry} list={listname} comment={comment} timeout=24h}} on-error={{}}\n")
         f.write("}")
     
     print(f"✓ Generated {output_file} with {len(entries)} unique entries")
