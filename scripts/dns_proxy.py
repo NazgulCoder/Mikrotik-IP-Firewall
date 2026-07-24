@@ -106,10 +106,15 @@ def generate_list():
     # Write to file
     with open(output_file, 'w') as f:
         f.write(f"# Generated on {datetime.now().strftime('%d %b %Y')} at {datetime.now().strftime('%H:%M:%S')}\n")
+        
+        # Rimuovi le vecchie entry per le due sorgenti
+        for _, comment in SOURCES:
+            f.write(f":do {{ /ip firewall address-list remove [find comment=\"{comment}\"] }} on-error={{}}\n")
+        
         f.write(":do {/ip firewall address-list\n")
         
         for ip_entry, comment in sorted(entries):
-            f.write(f":do {{add address={ip_entry} list={listname} comment={comment} timeout=23h}} on-error={{}}\n")
+            f.write(f":do {{add address={ip_entry} list={listname} comment={comment} timeout=24h}} on-error={{}}\n")
         
         f.write("}")
     
