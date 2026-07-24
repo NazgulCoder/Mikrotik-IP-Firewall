@@ -56,7 +56,7 @@ add action=drop chain=forward comment="Drop new connections from blacklisted IP'
  
 # Script Scheduler
 /system scheduler add comment="BlacklistUpdater" interval=1d \
-name="BlacklistUpdater" on-event=DownloadBlacklist \
+name="BlacklistUpdater" on-event=BlacklistUpdater \
 start-date=jan/01/1970 start-time=01:00:00
 ```
 
