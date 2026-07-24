@@ -95,7 +95,7 @@ def generate_list():
         # Aggiungi le nuove entry
         f.write(":do {/ip firewall address-list\n")
         for ip_entry, comment in sorted(entries):
-            f.write(f":do {{add address={ip_entry} list={listname} comment={comment} timeout=23h}} on-error={{}}\n")
+            f.write(f":do {{add address={ip_entry} list={listname} comment={comment} timeout=24h}} on-error={{}}\n")
         f.write("}")
     
     print(f"✓ Generated {output_file} with {len(entries)} unique entries")
