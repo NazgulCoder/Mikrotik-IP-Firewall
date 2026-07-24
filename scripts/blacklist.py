@@ -87,10 +87,9 @@ def generate_list():
     with open(output_file, 'w') as f:
         f.write(f"# Generated on {datetime.now().strftime('%d %b %Y')} at {datetime.now().strftime('%H:%M:%S')}\n")
         
-        # Rimuovi le vecchie entry per le tre sorgenti
-        f.write(":do { /ip firewall address-list remove [find comment=\"blocklist.de\"] } on-error={}\n")
-        f.write(":do { /ip firewall address-list remove [find comment=\"emergingthreats\"] } on-error={}\n")
-        f.write(":do { /ip firewall address-list remove [find comment=\"Firehol-Level1\"] } on-error={}\n")
+        # Rimuovi le vecchie entry per tutte le sorgenti definite in SOURCES (dinamicamente)
+        for _, comment in SOURCES:
+            f.write(f":do {{ /ip firewall address-list remove [find comment=\"{comment}\"] }} on-error={{}}\n")
         
         # Aggiungi le nuove entry
         f.write(":do {/ip firewall address-list\n")
