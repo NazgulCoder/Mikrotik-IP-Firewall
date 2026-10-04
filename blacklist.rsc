@@ -1,4 +1,4 @@
-# Generated on 03 Oct 2026 at 01:37:08
+# Generated on 04 Oct 2026 at 02:18:22
 :do { /ip firewall address-list remove [find comment="blocklist.de"] } on-error={}
 :do { /ip firewall address-list remove [find comment="emergingthreats"] } on-error={}
 :do { /ip firewall address-list remove [find comment="Firehol-Level1"] } on-error={}
@@ -784,7 +784,6 @@
 :do {add address=103.240.252.0/22 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=103.241.174.0/23 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=103.241.176.0/23 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
-:do {add address=103.241.197.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=103.241.26.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=103.241.40.0/23 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=103.242.183.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
@@ -3757,7 +3756,6 @@
 :do {add address=121.14.35.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=121.234.236.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=121.234.236.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=121.50.168.0/22 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=122.10.112.0/21 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=122.10.112.0/21 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=122.102.16.0/21 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
@@ -3850,6 +3848,7 @@
 :do {add address=138.219.172.0/22 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=138.226.236.0/23 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=138.226.236.0/23 list=blacklist comment=emergingthreats timeout=24h} on-error={}
+:do {add address=138.226.239.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=138.241.0.0/16 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=138.241.0.0/16 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=138.252.111.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
@@ -3947,7 +3946,6 @@
 :do {add address=147.119.0.0/16 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=147.16.0.0/14 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=147.16.0.0/14 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=147.185.132.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=147.185.132.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=147.45.124.0/23 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=147.45.124.0/23 list=blacklist comment=emergingthreats timeout=24h} on-error={}
@@ -3969,7 +3967,6 @@
 :do {add address=148.185.0.0/16 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=148.248.0.0/16 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=148.248.0.0/16 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=148.59.129.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=148.59.129.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=149.18.83.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=149.18.83.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
@@ -4040,7 +4037,6 @@
 :do {add address=155.94.203.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=155.94.203.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=156.0.199.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
-:do {add address=156.225.1.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=156.225.1.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=156.226.209.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=156.226.209.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
@@ -4116,6 +4112,7 @@
 :do {add address=160.116.0.0/15 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=160.116.0.0/16 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=160.117.0.0/16 list=blacklist comment=emergingthreats timeout=24h} on-error={}
+:do {add address=160.119.76.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=160.121.0.0/16 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=160.121.0.0/16 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=160.122.0.0/16 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
@@ -5462,6 +5459,7 @@
 :do {add address=185.116.172.0/23 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=185.116.175.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=185.116.175.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
+:do {add address=185.12.59.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=185.120.8.0/22 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=185.120.8.0/22 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=185.122.128.0/22 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
@@ -5538,7 +5536,6 @@
 :do {add address=185.241.208.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=185.241.211.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=185.241.211.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=185.242.226.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=185.242.226.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=185.242.246.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=185.242.246.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
@@ -6766,7 +6763,6 @@
 :do {add address=193.32.66.0/23 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=193.46.255.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=193.46.255.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=193.47.62.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=193.47.62.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=194.0.234.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=194.0.234.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
@@ -6805,7 +6801,6 @@
 :do {add address=195.178.148.0/23 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=195.181.224.0/20 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=195.181.224.0/20 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=195.184.76.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=195.184.76.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=195.24.237.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=195.24.237.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
@@ -7001,7 +6996,6 @@
 :do {add address=198.22.50.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=198.235.160.0/20 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=198.235.160.0/20 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=198.235.24.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=198.235.24.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=198.240.64.0/18 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=198.240.64.0/18 list=blacklist comment=emergingthreats timeout=24h} on-error={}
@@ -7226,6 +7220,7 @@
 :do {add address=199.38.0.0/21 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=199.38.252.0/22 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=199.38.252.0/22 list=blacklist comment=emergingthreats timeout=24h} on-error={}
+:do {add address=199.45.154.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=199.5.135.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=199.5.135.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=199.5.152.0/23 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
@@ -7366,7 +7361,6 @@
 :do {add address=202.14.154.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=202.14.182.0/23 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=202.14.187.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
-:do {add address=202.14.202.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=202.14.210.0/23 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=202.14.212.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=202.14.214.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
@@ -7726,7 +7720,6 @@
 :do {add address=202.71.190.0/23 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=202.72.252.0/22 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=202.73.160.0/19 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
-:do {add address=202.74.234.0/23 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=202.78.0.0/21 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=202.78.164.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=202.78.164.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
@@ -8148,7 +8141,6 @@
 :do {add address=203.20.57.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=203.20.58.0/23 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=203.20.66.0/23 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
-:do {add address=203.20.71.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=203.20.76.0/23 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=203.20.80.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=203.20.82.0/23 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
@@ -8272,7 +8264,6 @@
 :do {add address=203.23.48.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=203.23.5.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=203.23.51.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
-:do {add address=203.23.54.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=203.23.58.0/23 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=203.23.6.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=203.23.64.0/22 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
@@ -9176,7 +9167,6 @@
 :do {add address=203.7.240.0/20 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=203.76.228.0/22 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=203.78.0.0/22 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
-:do {add address=203.78.4.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=203.8.1.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=203.8.104.0/23 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=203.8.108.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
@@ -9629,6 +9619,7 @@
 :do {add address=206.197.226.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=206.197.77.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=206.197.77.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
+:do {add address=206.208.16.0/22 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=206.209.192.0/20 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=206.209.192.0/20 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=206.209.48.0/20 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
@@ -11431,6 +11422,7 @@
 :do {add address=45.154.244.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=45.154.98.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=45.154.98.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
+:do {add address=45.156.128.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=45.156.87.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=45.156.87.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=45.192.178.0/23 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
@@ -11495,6 +11487,7 @@
 :do {add address=45.74.16.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=45.74.21.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=45.74.21.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
+:do {add address=45.74.28.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=45.74.3.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=45.74.3.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=45.74.40.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
@@ -13680,6 +13673,7 @@
 :do {add address=66.132.172.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=66.132.186.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=66.132.186.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
+:do {add address=66.132.195.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=66.198.225.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=66.198.225.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=67.219.208.0/20 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
@@ -13688,6 +13682,7 @@
 :do {add address=69.165.0.0/20 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=69.40.207.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=69.40.207.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
+:do {add address=69.5.169.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=74.114.148.0/22 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=74.114.148.0/22 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=76.74.0.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
@@ -13707,7 +13702,6 @@
 :do {add address=77.109.139.87 list=blacklist comment=blocklist.de timeout=24h} on-error={}
 :do {add address=77.109.3.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=77.109.3.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=77.239.124.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=77.239.124.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=77.244.221.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=77.244.221.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
@@ -13733,6 +13727,7 @@
 :do {add address=78.153.140.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=78.40.143.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=78.40.143.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
+:do {add address=79.124.56.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=79.124.62.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=79.124.62.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=80.208.192.0/20 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
@@ -13803,7 +13798,6 @@
 :do {add address=85.209.204.0/22 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=85.209.204.0/22 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=85.217.140.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
-:do {add address=85.217.149.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=85.217.149.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=85.217.216.0/22 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=85.239.144.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
@@ -13938,6 +13932,7 @@
 :do {add address=89.46.47.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=91.188.254.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=91.188.254.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
+:do {add address=91.196.152.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=91.200.133.0/24 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
 :do {add address=91.200.133.0/24 list=blacklist comment=emergingthreats timeout=24h} on-error={}
 :do {add address=91.200.164.0/22 list=blacklist comment=Firehol-Level1 timeout=24h} on-error={}
